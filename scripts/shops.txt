@@ -1,0 +1,103 @@
+"dota_shops"
+{
+	"consumables"
+	{
+		"item"		"item_health_potion"
+		"item"		"item_mana_potion"
+	}
+	//weapons
+	"attributes"
+	{	
+		"item"		"item_basic_dagger"
+		"item"		"item_basic_sword"
+		"item"		"item_greatsword"
+		"item"		"item_basic_axe"
+		"item"		"item_basic_spear"
+		"item"		"item_basic_mace"
+		"item"		"item_basic_bow"
+		"item"		"item_triple_head"
+		"item"		"item_void_wand"
+		"item"		"item_frost_rod"
+		"item"		"item_chaos_staff"
+	}
+	//armor
+	"weapons_armor"
+	{
+		"item"		"item_basic_chainmail"
+		"item"		"item_basic_cloak"
+		"item"		"item_basic_robe"
+		"item"		"item_sorcery_cape"
+		"item"		"item_golden_touch"
+		"item"		"item_vigilance"
+		"item"		"item_basic_slippers"
+		"item"		"item_basic_boots"
+		"item"		"item_upgraded_boots"
+		"item"		"item_sturdy_treads"
+		"item"		"item_swift_treads"
+		"item"		"item_arcane_treads"
+	}
+	//upgrades
+	"misc"
+	{
+		"item"		"item_upgrader_1"
+		"item"		"item_treant_seed"
+		"item"		"item_golem_core"
+		"item"		"item_red_orb"
+		"item"		"item_green_orb"
+		"item"		"item_blue_orb"
+	}	
+	
+	// Level 1 - Green Recipes
+	"basics"
+	{		
+				
+	}
+
+	// Level 2 - Blue Recipes
+	"support"
+	{
+		
+	}
+				
+	"magics"			
+	{
+		
+	}
+		
+	// Level 3 - Purple Recipes	
+	"defense"
+	{
+		
+	}
+			
+	"weapons"
+	{	
+		
+	}
+		
+	// Level 4 - Orange / Orb / Artifacts				
+	"artifacts"
+	{	
+ 		
+	}
+
+	"sideshop1"
+	{
+		
+	}
+
+	"sideshop2"
+	{
+		
+	}
+	
+	"secretshop"
+	{				
+		
+	}
+
+	"pregame"
+	{
+		
+	}
+}

@@ -1,0 +1,76 @@
+"DOTAAbilities"
+{	
+	"paladin_iron_skin"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/paladin_iron_skin/paladin_iron_skin"
+		"AbilityTextureName"			"paladin/paladin_iron_skin"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_omniknight.vsndevts"
+			"particle"  "particles/units/heroes/hero_troll_warlord/troll_warlord_berserk_buff.vpcf"
+		}
+
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0.25"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"50"
+		"AbilityDuration"				"50"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"150"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_resistance"		"10 15 20 25 30 35 40"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"reduction"				"50"
+			}
+		}
+	}
+}

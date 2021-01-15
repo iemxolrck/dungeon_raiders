@@ -1,0 +1,48 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_sven"
+	{
+		"Ability1"					"paladin_holy_field"
+		"Ability2"					"paladin_iron_skin"
+		"Ability3"					"paladin_hollowed_ground"
+		"Ability4"					"paladin_judgment"
+		"Ability5"					"disruptor_kinetic_field_lua"
+		"Ability6"					"mirana_leap_lua"
+		"Ability7"					"generic_hidden"
+		"Ability8"					"generic_hidden"
+		"Ability9"					"generic_hidden"
+		"Ability10"					"generic_hidden"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+
+		"AttributeBaseStrength"			"33"
+		"AttributeBaseAgility"			"22"
+		"AttributeBaseIntelligence"		"20"
+
+		"AttributeStrengthGain"			"3"
+		"AttributeAgilityGain"			"2"
+		"AttributeIntelligenceGain"		"1"
+		
+	}
+
+}

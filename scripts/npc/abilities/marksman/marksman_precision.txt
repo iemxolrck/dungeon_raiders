@@ -1,0 +1,72 @@
+"DOTAAbilities"
+{	
+	"marksman_precision"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/marksman_precision/marksman_precision"
+		"AbilityTextureName"			"marksman/marksman_precision"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"0"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"0"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_range"			"200 400 600"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range"			"200 400 600"
+			}
+		}
+	}
+}

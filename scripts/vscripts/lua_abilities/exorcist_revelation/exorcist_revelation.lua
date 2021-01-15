@@ -1,0 +1,1 @@
+exorcist_revelation = class({})

@@ -1,0 +1,94 @@
+"DOTAAbilities"
+{
+	"warrior_provoke"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warrior_provoke/warrior_provoke"
+		"AbilityTextureName"			"warrior/warrior_provoke"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+			"particle"	"particles/status_fx/status_effect_beserkers_call.vpcf"
+			"particle"	"particles/units/heroes/hero_axe/axe_beserkers_call.vpcf"
+			"particle"	"particles/units/heroes/hero_axe/axe_beserkers_call_owner.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"500 600 700 800 900 1000 1100"
+		"AbilityCastRangeBuffer"		"500 600 700 800 900 1000 1100"
+		"AbilityCastPoint"				"0.0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"20"
+		"AbilityDuration"				"0.0 0.0 0.0 0.0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"100"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+		
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"500 600 700 800 900 1000 1100"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"10 15 20 25 30 35 40"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"proc_chance"			"25"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"9 10 11 12 13 14 15"
+			}
+		}
+	}
+}

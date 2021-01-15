@@ -1,0 +1,102 @@
+"DOTAAbilities"
+{
+	"cleric_turn_undead"
+	{
+		//------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/cleric_turn_undead/cleric_turn_undead"
+		"AbilityTextureName"			"cleric/cleric_turn_undead"
+
+		"MaxLevel"						"5"
+		"LevelsBetweenUpgrades"			"5"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NONE"
+		
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts"
+			"particle"	"particles/econ/items/keeper_of_the_light/kotl_ti10_immortal/kotl_ti10_blinding_light.vpcf"
+			"particle"	"particles/units/heroes/hero_invoker/invoker_deafening_blast.vpcf"
+			"particle"	"particles/units/heroes/hero_omniknight/omniknight_repel_cast.vpcf"
+		}
+			
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1750"
+		"AbilityCastPoint"				"0.25"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"start_radius"			"160"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"end_radius"			"150"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"1750"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed"					"1500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"reduction"				"-25"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"11"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"skill_damage"			"100 120 140 160 180 200 220"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_increase"		"50"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cooldown"				"2.5"
+			}
+		}
+	}
+}

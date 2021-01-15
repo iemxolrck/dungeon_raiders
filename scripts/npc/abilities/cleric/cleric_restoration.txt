@@ -1,0 +1,76 @@
+"DOTAAbilities"
+{
+	"cleric_restoration"
+	{
+		//------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/cleric_restoration/cleric_restoration"
+		"AbilityTextureName"			"cleric/cleric_restoration"
+		
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"	"particles/econ/items/arc_warden/arc_warden_ti9_immortal/arc_warden_ti9_wraith_cast_lightning_sparks.vpcf"
+			"particle"	"particles/items3_fx/fish_bones_active_ring.vpcf"
+			"particle"	"particles/econ/items/omniknight/omni_ti8_head/omniknight_repel_buff_ti8_flash.vpcf"
+			"particle"  "particles/prime/hero_spawn_hero_level_2_embers.vpcf"
+			"particle"  "particles/prime/hero_spawn_hero_level_5_embers.vpcf"
+			"particle"  "particles/radiant_fx/good_barracks_dest_beam.vpcf"
+			"particle"  "particles/radiant_fx/good_barracks_gen_hitsparks.vpcf"
+			"particle"  "particles/units/heroes/hero_abaddon/abaddon_spawn_b.vpcf"
+			"particle"  "particles/generic_gameplay/generic_lifesteal_blue.vpcf"
+			"particle"  "particles/generic_gameplay/generic_lifesteal.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"5 3 1"
+		"AbilityManaCost"				"75 50 25"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_as_heal"			"5 10 15"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"loss_health_as_heal"	"10 20 30"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"heal_amp"				"10 20 30"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"1000"
+			}
+
+		}
+	}
+}

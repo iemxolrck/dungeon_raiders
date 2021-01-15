@@ -1,0 +1,8 @@
+shaman_protection_from_death = class({})
+
+LinkLuaModifier( "modifier_shaman_protection_from_death", "lua_abilities/shaman_protection_from_death/modifier_shaman_protection_from_death", LUA_MODIFIER_MOTION_NONE )
+LinkLuaModifier( "modifier_shaman_protection_from_death_buff", "lua_abilities/shaman_protection_from_death/modifier_shaman_protection_from_death_buff", LUA_MODIFIER_MOTION_NONE )
+
+function shaman_protection_from_death:GetIntrinsicModifierName()
+	return "modifier_shaman_protection_from_death"
+end

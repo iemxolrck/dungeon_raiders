@@ -1,0 +1,79 @@
+"DOTAAbilities"
+{
+	"wizard_charge_blast"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/wizard_charge_blast/wizard_charge_blast"
+		"AbilityTextureName"			"wizard/wizard_charge_blast"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"7"
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_invoker.vsndevts"
+			"particle"	"particles/units/heroes/hero_invoker/invoker_emp.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"950"
+		"AbilityCastPoint"				"0.05"
+		"AbilityChannelTime"			"2"
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"125"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"delay"					"3"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"abilitychanneltime"	"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"area_of_effect"		"675"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"275 350 425 500 575 650 725"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"manaburn_per_damage"	"25"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"drenched_damage"		"75"
+			}
+		}
+	}
+}

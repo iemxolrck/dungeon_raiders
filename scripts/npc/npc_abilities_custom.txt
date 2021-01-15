@@ -1,0 +1,157 @@
+#base "abilities/abilities/test_abilities.txt"
+#base "abilities/abilities/tomes.txt"
+#base "abilities/abilities/return.txt"
+#base "abilities/abilities/shadow_fiend_shadowraze_lua_base.txt"
+#base "abilities/abilities/pangolier_swashbuckle_lua.txt"
+#base "abilities/abilities/dazzle_shadow_wave_lua.txt"
+#base "abilities/abilities/mars_spear_of_mars_lua.txt"
+#base "abilities/abilities/omniknight_guardian_angel_lua.txt"
+#base "abilities/abilities/dragon_knight_breathe_fire_lua.txt"
+#base "abilities/abilities/furion_lua.txt"
+#base "abilities/abilities/ursa_fury_swipes_lua.txt"
+#base "abilities/abilities/level_plus.txt"
+#base "abilities/abilities/generic.txt"
+#base "abilities/abilities/resource.txt"
+#base "abilities/abilities/mars_arena_of_blood_lua.txt"
+#base "abilities/abilities/dark_willow_bedlam_lua.txt"
+#base "abilities/abilities/void_spirit_resonant_pulse_lua.txt"
+#base "abilities/abilities/drow_ranger_multishot_lua.txt"
+#base "abilities/abilities/mirana_sacred_arrow_lua.txt"
+#base "abilities/abilities/test_cosmetics.txt"
+#base "abilities/abilities/lina_laguna_blade_lua.txt"
+#base "abilities/abilities/disruptor_kinetic_field_lua.txt"
+#base "abilities/abilities/mirana_leap_lua.txt"
+
+#base "resource/player_healing.txt"
+
+#base "abilities/marksman/archer_critical_shot.txt"
+
+
+#base "abilities/barbarian/barbarian_barbaric_rage.txt"
+
+#base "abilities/bard/bard_empty.txt"
+#base "abilities/bard/bard_symphony.txt"
+#base "abilities/bard/bard_discord.txt"
+#base "abilities/bard/bard_inspire.txt"
+#base "abilities/bard/bard_play_dead.txt"
+#base "abilities/bard/bard_dash.txt"
+
+#base "abilities/bard/flute/bard_flute.txt"
+#base "abilities/bard/flute/bard_hypnotize.txt"
+#base "abilities/bard/flute/bard_whispers.txt"
+
+#base "abilities/bard/lyre/bard_lyre.txt"
+#base "abilities/bard/lyre/bard_lullaby.txt"
+#base "abilities/bard/lyre/bard_song_of_restoration.txt"
+
+#base "abilities/bard/guitar/bard_guitar.txt"
+#base "abilities/bard/guitar/bard_bewilder.txt"
+#base "abilities/bard/guitar/bard_haste.txt"
+
+#base "abilities/bard/bard_charisma.txt"
+#base "abilities/bard/bard_tuning.txt"
+#base "abilities/bard/bard_finesse.txt"
+
+#base "abilities/cleric/cleric_healing_light.txt"
+#base "abilities/cleric/cleric_mass_heal.txt"
+#base "abilities/cleric/cleric_divine_protection.txt"
+#base "abilities/cleric/cleric_blessing.txt"
+#base "abilities/cleric/cleric_turn_undead.txt"
+#base "abilities/cleric/cleric_resurrection.txt"
+#base "abilities/cleric/cleric_channel_divinity.txt"
+
+#base "abilities/cleric/cleric_divine_strength.txt"
+#base "abilities/cleric/cleric_restoration.txt"
+#base "abilities/cleric/cleric_clairvoyance.txt"
+
+#base "abilities/druid/druid_summon_treant.txt"
+#base "abilities/druid/druid_summon_golem.txt"
+#base "abilities/druid/druid_energy_bolt.txt"
+#base "abilities/druid/druid_spirit_force.txt"
+#base "abilities/druid/druid_natures_call.txt"
+#base "abilities/druid/druid_shapeshift.txt"
+
+#base "abilities/druid/druid_protection_of_the_forest.txt"
+#base "abilities/druid/druid_harvest.txt"
+#base "abilities/druid/druid_entangle.txt"
+
+#base "abilities/engineer/engineer_laser_beam.txt"
+#base "abilities/engineer/engineer_missile_barrage.txt"
+#base "abilities/engineer/engineer_scan.txt"
+#base "abilities/engineer/engineer_station_bot.txt"
+
+#base "abilities/marksman/marksman_ankle_shot.txt"
+#base "abilities/marksman/marksman_scatter_arrows.txt"
+#base "abilities/marksman/marksman_splinter_shot.txt"
+#base "abilities/marksman/marksman_barrage.txt"
+#base "abilities/marksman/marksman_dash.txt"
+#base "abilities/marksman/marksman_multishot.txt"
+#base "abilities/marksman/marksman_triple_shot.txt"
+#base "abilities/marksman/marksman_powershot.txt"
+
+#base "abilities/marksman/marksman_sniper.txt"
+#base "abilities/marksman/marksman_piercing.txt"
+#base "abilities/marksman/marksman_precision.txt"
+
+#base "abilities/paladin/paladin_hollowed_ground.txt"
+#base "abilities/paladin/paladin_holy_field.txt"
+#base "abilities/paladin/paladin_iron_skin.txt"
+#base "abilities/paladin/paladin_judgment.txt"
+
+#base "abilities/ranger/ranger_tame_beast.txt"
+#base "abilities/ranger/ranger_net_throw.txt"
+#base "abilities/ranger/ranger_smokescreen.txt"
+#base "abilities/ranger/ranger_latent_venom.txt"
+#base "abilities/ranger/ranger_burrow_trap.txt"
+#base "abilities/ranger/ranger_heighten_senses.txt"
+
+#base "abilities/ranger/ranger_camouflage.txt"
+
+#base "abilities/shaman/shaman_mystic_snake.txt"
+#base "abilities/shaman/shaman_wildshape.txt"
+#base "abilities/shaman/shaman_maximize.txt"
+#base "abilities/shaman/shaman_minimize.txt"
+#base "abilities/shaman/shaman_prince_of_stag.txt"
+
+#base "abilities/shaman/shaman_protection_from_death.txt"
+#base "abilities/shaman/shaman_resurrecting_light.txt"
+#base "abilities/shaman/shaman_synchronize.txt"
+
+#base "abilities/warlock/warlock_shadowraze.txt"
+#base "abilities/warlock/warlock_soulbind.txt"
+#base "abilities/warlock/warlock_eldritch_blast.txt"
+
+#base "abilities/warlock/warlock_nyctophobia.txt"
+
+#base "abilities/warrior/warrior_provoke.txt"
+#base "abilities/warrior/warrior_shield_strike.txt"
+#base "abilities/warrior/warrior_shield_train.txt"
+#base "abilities/warrior/warrior_sprint.txt"
+#base "abilities/warrior/warrior_heavy_slash.txt"
+#base "abilities/warrior/warrior_guardian_stance.txt"
+
+#base "abilities/warrior/warrior_perseverance.txt"
+#base "abilities/warrior/warrior_iron_will.txt"
+#base "abilities/warrior/warrior_counter_stance.txt"
+
+#base "abilities/wizard/wizard_meteor.txt"
+#base "abilities/wizard/wizard_blizzard.txt"
+#base "abilities/wizard/wizard_snowball.txt"
+#base "abilities/wizard/wizard_ice_blast.txt"
+#base "abilities/wizard/wizard_frost_prison.txt"
+#base "abilities/wizard/wizard_charge_blast.txt"
+#base "abilities/wizard/wizard_tidal_wave.txt"
+#base "abilities/wizard/wizard_torrent.txt"
+
+#base "abilities/wizard/wizard_arcane_channeling.txt"
+
+#base "abilities/druid/summon_treant_fury_swipes.txt"
+#base "abilities/druid/summon_treant_chlorophyll.txt"
+#base "abilities/druid/summon_golem_rock_splash.txt"
+#base "abilities/druid/summon_golem_craggy_exterior.txt"
+
+#base "abilities/engineer/station_bot_command_prompt.txt"
+
+#base "abilities/ranger/bird_circling.txt"
+
+#base "abilities/boss/dirge_zombie_apocalypse.txt"

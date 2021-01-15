@@ -1,0 +1,56 @@
+"DOTAAbilities"
+{
+	"bard_play_dead"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_play_dead/bard_play_dead"
+		"AbilityTextureName"			"bard/bard_play_dead"
+		"FightRecapLevel"				"1"
+
+		"MaxLevel"						"5"
+		"LevelsBetweenUpgrades"			"5"
+		"RequiredLevel"					"10"
+
+		"precache"
+		{
+			"particle"	"particles/units/heroes/hero_pangolier/pangolier_gyroshell.vpcf"
+			"particle"	"particles/units/heroes/hero_pangolier/pangolier_swashbuckler_dash_rope.vpcf"
+		}
+		
+		// Ability General
+		//------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT"
+		"AbilityCastAnimation"			"ACT_DOTA_DIE"
+
+		// Ability Casting
+		//------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0"
+		"AbilityChannelTime"			"5.0"
+
+		// Ability Resource
+		//------------------------------------------------
+		"AbilityCooldown"				"50 40 30 20 10"
+		"AbilityManaCost"				"0"
+
+		// Damage
+		//------------------------------------------------
+
+		// Special
+		//------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"channel_time"			"5"
+			}
+		}
+	}
+}

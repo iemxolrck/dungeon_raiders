@@ -1,0 +1,37 @@
+"DOTAAbilities"
+{
+	"return_lua"
+	{
+
+		// General
+		// ---------------------------------------------------------------
+
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/return_lua/return_lua"
+		"AbilityTextureName"			"return"
+
+		"MaxLevel"						"1"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		// Precache
+
+		"precache"
+		{
+			"particle"	"particles/generic_hero_status/hero_levelup.vpcf"
+			"particle"  "particles/econ/events/ti8/hero_levelup_ti8_godray.vpcf"
+			"particle"  "particles/econ/events/ti9/hero_levelup_ti9_godray.vpcf"
+			"particle"  "particles/econ/events/ti6/hero_levelup_ti6_godray.vpcf"
+			"soundfile"	"sounds/addons/conquest/capture_point_timer.vsnd"
+			"soundfile"	"sounds/ui/bonus_level.vsnd"
+		}
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"0.1"
+
+	}
+
+}

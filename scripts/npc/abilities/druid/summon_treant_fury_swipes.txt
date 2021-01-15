@@ -1,0 +1,81 @@
+"DOTAAbilities"
+{	
+	"summon_treant_fury_swipes"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/summon_treant_fury_swipes/summon_treant_fury_swipes"
+		"AbilityTextureName"			"druid/summon_treant_fury_swipes"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS"
+
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"1"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"	"particles/units/heroes/hero_ursa/ursa_fury_swipes.vpcf"
+			"particle"	"particles/units/heroes/hero_ursa/ursa_fury_swipes_debuff.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"0"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"0"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_per_stack"		"12 18 24 30 36 42 48"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_reset_time"		"11"
+			}
+		}
+	}
+}

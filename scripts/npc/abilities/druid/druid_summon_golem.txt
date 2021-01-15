@@ -1,0 +1,84 @@
+"DOTAAbilities"
+{
+	"druid_summon_golem"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/druid_summon_golem/druid_summon_golem"
+		"AbilityTextureName"			"druid/druid_summon_golem"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			
+		}
+	
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"300"
+		"AbilityCastPoint"				"0.5"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"5"
+		"AbilityDuration"				"300"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"25"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"distance"				"300"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_summons"			"4 5 6 7 8 9 10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_as_health"		"50 55 60 65 70 75 80"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"summon_damage"			"50 52 54 56 58 60 62"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"300.0"
+			}
+		}
+	}
+}

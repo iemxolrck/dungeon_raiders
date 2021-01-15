@@ -1,0 +1,59 @@
+"DOTAAbilities"
+{
+	"item_upgrader_1"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"ID"							"1303"
+		"BaseClass"						"item_datadriven"
+		//"ScriptFile"					"lua_items/item_upgrader_1/item_upgrader_1"
+		"AbilityTextureName"			"upgrader/item_upgrader_1"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"		
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			
+		}
+		
+		// Item Info	
+		// ---------------------------------------------------------------
+		"ItemCost"						"50"
+		"ItemShopTags"					""
+		"ItemQuality"					"component"
+		"ItemAliases"					"upgrader"
+	    "ItemInitialCharges"			"0"
+		"ItemCombinable"				"1"
+		"ItemPermanent"					"1"
+		"ItemStackable"					"0"
+		"ItemRecipe"					"0"
+		"ItemDroppable"					"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemRequiresCharges"			"0"
+		"ItemKillable"					"1"
+		"ItemDisassemblable"			"0"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDeclaresPurchase"			"0"
+	    "ItemIsNeutralDrop"             "0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_1"				"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_2"				"0"
+			}
+		}
+	}
+}

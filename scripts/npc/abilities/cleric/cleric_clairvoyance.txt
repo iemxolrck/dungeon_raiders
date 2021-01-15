@@ -1,0 +1,57 @@
+"DOTAAbilities"
+{
+	"cleric_clairvoyance"
+	{
+		//------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/cleric_clairvoyance/cleric_clairvoyance"
+		"AbilityTextureName"			"cleric/cleric_clairvoyance"
+		
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"sounds/ui/challenge_failure.vsnd"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+			"particle"	"particles/units/heroes/hero_omniknight/omniknight_repel_cast.vpcf"
+			"particle"	"particles/econ/items/zeus/arcana_chariot/zeus_arcana_thundergods_wrath_start_bolt_parent.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"500 750 1000"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"evasion"				"10 30 50"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"500 750 1000"
+			}
+		}
+	}
+}

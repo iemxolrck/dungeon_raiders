@@ -1,0 +1,78 @@
+"DOTAAbilities"
+{	
+	"marksman_sniper"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/marksman_sniper/marksman_sniper"
+		"AbilityTextureName"			"marksman/marksman_sniper"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"  "particles/generic_gameplay/generic_lifesteal_blue.vpcf"
+			"particle"	"particles/generic_gameplay/generic_lifesteal.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"500"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"0"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"0"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_range"			""
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range"			""
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_per_distance"	"0.5 1.0 1.5"
+			}
+		}
+	}
+}

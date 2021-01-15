@@ -1,0 +1,111 @@
+"DOTAAbilities"
+{
+	"ranger_burrow_trap"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/ranger_burrow_trap/ranger_burrow_trap"
+		"AbilityTextureName"			"ranger/ranger_burrow_trap"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NONE"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"4"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_riki.vsndevts"
+			"particle"  "particles/units/heroes/hero_nyx_assassin/nyx_assassin_burrow_exit.vpcf"
+			"particle"  "particles/units/heroes/hero_nyx_assassin/nyx_assassin_burrow_exit_water.vpcf"
+			"particle"  "particles/units/heroes/hero_nyx_assassin/nyx_assassin_burrow_inground.vpcf"
+			"particle"  "particles/units/heroes/hero_nyx_assassin/nyx_assassin_burrow_rocks.vpcf"
+			"particle"  "particles/units/heroes/hero_nyx_assassin/nyx_assassin_burrow_water.vpcf"
+			"particle"	"particles/units/heroes/hero_nyx_assassin/nyx_assassin_spiked_carapace.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"500"
+		"AbilityCastPoint"				"0.45"
+		"AbilityCastAnimation"			"ACT_DOTA_TELEPORT"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"1"
+		"AbilityCooldown"				"15"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"90"
+
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_traps"				"10"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"explode_damage"		"100 150 200 250"
+			}		
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-20 -22 -24 -26"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow_duration"			"2"
+			}	
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"area_of_effect"		"300"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"detonate_radius"		"100"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"abilitychanneltime"	"2"
+			}
+		}
+	}
+}

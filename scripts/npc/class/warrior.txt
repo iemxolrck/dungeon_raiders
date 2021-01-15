@@ -1,0 +1,48 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_dragon_knight"
+	{
+		"Ability1"					"warrior_provoke"
+		"Ability2"					"warrior_shield_strike"
+		"Ability3"					"warrior_shield_train"
+		"Ability4"					"warrior_sprint"
+		"Ability5"					"warrior_heavy_slash"
+		"Ability6"					"warrior_guardian_stance"
+		"Ability7"					"warrior_perseverance"
+		"Ability8"					"warrior_iron_will"
+		"Ability9"					"warrior_counter_stance"
+		"Ability10"					"generic_hidden"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+		
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+
+		"AttributeBaseStrength"			"35"
+		"AttributeBaseAgility"			"21"
+		"AttributeBaseIntelligence"		"19"
+
+		"AttributeStrengthGain"			"3"
+		"AttributeAgilityGain"			"2"
+		"AttributeIntelligenceGain"		"1"
+		
+	}
+
+}

@@ -1,0 +1,84 @@
+"DOTAAbilities"
+{
+	"out_of_combat_buff"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/resource/out_of_combat_buff/out_of_combat_buff"
+		"AbilityTextureName"			"out_of_combat_buff"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"1"
+		"LevelsBetweenUpgrades"			"1"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"  "particles/items5_fx/elixer.vpcf"
+			"particle"  "particles/items_fx/bottle.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"0"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"0 0 0 0"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0 0 0 0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health_regen"			"3"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen"			"2"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_speed"			"10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"timer"					"10"
+			}
+		}
+
+	}
+}

@@ -1,0 +1,48 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_pangolier"
+	{
+		"Ability1"					"bard_symphony"
+		"Ability2"					"bard_discord"
+		"Ability3"					"bard_lullaby"
+		"Ability4"					"bard_play_dead"
+		"Ability5"					"bard_flute"
+		"Ability6"					"bard_inspire"
+		"Ability7"					"bard_guitar"
+		"Ability8"					"bard_lyre"
+		"Ability9"					"bard_bewilder"
+		"Ability10"					"bard_hypnotize"
+		"Ability11"					"bard_whispers"
+		"Ability12"					"bard_haste"
+		"Ability13"					"bard_song_of_restoration"
+		"Ability14"					"bard_dash"
+		"Ability15"					"bard_symphony_cancel"
+		"Ability16"					"bard_discord_cancel"
+		"Ability17"					"bard_charisma"
+		"Ability18"					"bard_tuning"
+		"Ability19"					"bard_finesse"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+
+		"AttributeBaseStrength"			"16"
+		"AttributeBaseAgility"			"30"
+		"AttributeBaseIntelligence"		"29"
+
+		"AttributeStrengthGain"			"1"
+		"AttributeAgilityGain"			"3"
+		"AttributeIntelligenceGain"		"2"
+		
+	}
+
+}

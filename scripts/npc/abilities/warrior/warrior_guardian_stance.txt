@@ -1,0 +1,91 @@
+"DOTAAbilities"
+{
+	"warrior_guardian_stance"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warrior_guardian_stance/warrior_guardian_stance"
+		"AbilityTextureName"			"warrior/warrior_guardian_stance"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"20"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_axe.vsndevts"
+			"particle"	"particles/items5_fx/minotaur_horn.vpcf"
+			"particle"  "particles/items2_fx/vanguard_active.vpcf"
+			"particle"  "particles/items2_fx/vanguard_active_launch.vpcf"
+			"particle"  "particles/items_fx/glyph_creeps.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0.5"
+		"AbilityCastAnimation"			"ACT_DOTA_VICTORY"
+		"AnimationPlaybackRate"			"2"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"100"
+		"AbilityDuration"				"5"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"100"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+		
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_as_damage_block"	"100 200 300"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"			"10 20 30"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_resistance"		"10 20 30"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"30"
+			}
+		}
+	}
+}

@@ -1,0 +1,102 @@
+"DOTAAbilities"
+{
+	"ranger_net_throw"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/ranger_net_throw/ranger_net_throw"
+		"AbilityTextureName"			"ranger/ranger_net_throw"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"5"
+		"LevelsBetweenUpgrades"			"2"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_meepo.vsndevts"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite.vpcf"
+			"particle"	"particles/units/heroes/hero_ogre_magi/ogre_magi_ignite_debuff.vpcf"
+			"particle"  "particles/units/heroes/hero_meepo/meepo_earthbind.vpcf"
+			"particle"  "particles/units/heroes/hero_meepo/meepo_earthbind_main.vpcf"
+			"particle"  "particles/units/heroes/hero_meepo/meepo_earthbind_projectile_fx.vpcf"
+		}
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.45"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"15"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"90"
+
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"1 2 3 4 5"
+			}
+
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"burn_damage"			"10 20 30 40 50"
+			}		
+
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow_movement_speed_pct"		"-20 -22 -24 -26"
+			}
+
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"1500"
+			}	
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}
+}

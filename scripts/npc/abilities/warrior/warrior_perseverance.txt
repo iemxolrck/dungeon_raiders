@@ -1,0 +1,85 @@
+"DOTAAbilities"
+{
+	"warrior_perseverance"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warrior_perseverance/warrior_perseverance"
+		"AbilityTextureName"			"warrior/warrior_perseverance"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"0"
+		"AbilitySharedCooldown"			""
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"timer_reduction"		"30 50 70"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"health_regen"			"50"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_health"			"25 37 50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp_threshold_max"		"5"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_as_health_regen"	"75"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_damage_reduction"	"12 20 27 35"
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_drow_ranger"
+	{
+		"Ability1"					"marksman_ankle_shot"
+		"Ability2"					"marksman_scatter_arrows"
+		"Ability3"					"marksman_barrage"
+		"Ability4"					"marksman_multishot"
+		"Ability5"					"marksman_triple_shot"
+		"Ability6"					"marksman_powershot"
+		"Ability7"					"marksman_sniper"
+		"Ability8"					"marksman_piercing"
+		"Ability9"					"marksman_precision"
+		"Ability10"					"marksman_dash"
+		"Ability11"					"marksman_triple_shot_first_arrow"
+		"Ability12"					"marksman_triple_shot_third_arrow"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
+
+		"AttackDamageMin"		"30"
+		"AttackDamageMax"		"30"
+
+		"AttributeBaseStrength"			"19"
+		"AttributeBaseAgility"			"37"
+		"AttributeBaseIntelligence"		"19"
+
+		"AttributeStrengthGain"			"1"
+		"AttributeAgilityGain"			"3"
+		"AttributeIntelligenceGain"		"2"
+
+	}
+
+}

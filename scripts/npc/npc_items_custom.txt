@@ -1,0 +1,45 @@
+#base "items/bow/item_basic_bow.txt"
+#base "items/bow/item_triple_head.txt"
+
+#base "items/mace/item_basic_mace.txt"
+
+#base "items/dagger/item_basic_dagger.txt"
+
+#base "items/axe/item_basic_axe.txt"
+
+#base "items/spear/item_basic_spear.txt"
+
+#base "items/sword/item_basic_sword.txt"
+#base "items/sword/item_greatsword.txt"
+
+#base "items/upgrader/item_upgrader.txt"
+#base "items/upgrader/item_red_orb.txt"
+#base "items/upgrader/item_green_orb.txt"
+#base "items/upgrader/item_blue_orb.txt"
+
+#base "items/potion/item_potions.txt"
+#base "items/misc/item_misc.txt"
+
+#base "items/shield/item_vigilance.txt"
+
+#base "items/gloves/item_golden_touch.txt"
+
+#base "items/armor/item_basic_chainmail.txt"
+#base "items/armor/item_basic_cloak.txt"
+#base "items/armor/item_basic_robe.txt"
+#base "items/armor/item_sorcery_cape.txt"
+
+#base "items/boots/item_basic_boots.txt"
+#base "items/boots/item_basic_slippers.txt"
+#base "items/boots/item_upgraded_boots.txt"
+#base "items/boots/item_sturdy_treads.txt"
+#base "items/boots/item_swift_treads.txt"
+#base "items/boots/item_arcane_treads.txt"
+
+#base "items/staff/item_void_wand.txt"
+#base "items/staff/item_frost_rod.txt"
+#base "items/staff/item_chaos_staff.txt"
+
+#base "items/items.txt"
+
+//npc_dota_hero_dragon_knight;npc_dota_hero_axe;npc_dota_hero_omniknight;npc_dota_hero_sven;npc_dota_hero_mars;n;_dota_hero_drow_ranger;npc_dota_hero_windrunner;npc_dota_hero_phantom_assassin;npc_dota_hero_pangolier;npc_do;a_hero_juggernaut;npc_dota_hero_invoker;npc_dota_hero_furion;npc_dota_hero_tinker;npc_dota_hero_warlock;npc_dota_hero_slark;

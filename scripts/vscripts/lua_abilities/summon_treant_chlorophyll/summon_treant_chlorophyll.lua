@@ -1,0 +1,8 @@
+summon_treant_chlorophyll = class({})
+
+LinkLuaModifier("modifier_summon_treant_chlorophyll", "lua_abilities/summon_treant_chlorophyll/modifier_summon_treant_chlorophyll", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_summon_treant_chlorophyll_buff", "lua_abilities/summon_treant_chlorophyll/modifier_summon_treant_chlorophyll_buff", LUA_MODIFIER_MOTION_NONE)
+
+function summon_treant_chlorophyll:GetIntrinsicModifierName()
+	return "modifier_summon_treant_chlorophyll"
+end

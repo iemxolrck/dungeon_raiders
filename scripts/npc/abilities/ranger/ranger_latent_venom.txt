@@ -1,0 +1,128 @@
+"DOTAAbilities"
+{
+	"ranger_latent_venom"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/ranger_latent_venom/ranger_latent_venom"
+		"AbilityTextureName"			"ranger/ranger_latent_venom"
+		
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"4"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_queenofpain.vsndevts"
+			"particle"	"particles/units/heroes/hero_queenofpain/queen_shadow_strike.vpcf"
+			"particle"	"particles/units/heroes/hero_queenofpain/queen_shadow_strike_debuff.vpcf"
+			"particle"  "particles/units/heroes/hero_pudge/pudge_rot.vpcf"
+			"particle"  "particles/units/heroes/hero_pudge/pudge_rot_recipient.vpcf"
+			"particle"  "particles/units/heroes/hero_pudge/pudge_loadout.vpcf"
+			"particle"  "particles/units/heroes/hero_pudge/pudge_swallow_release_bile.vpcf"
+			"particle"  "particles/units/heroes/hero_pudge/pudge_rot_body_start.vpcf"
+			"particle"  "particles/econ/items/dazzle/dazzle_darkclaw/dazzle_darkclaw_talon_poison.vpcf"
+			"particle"  "particles/econ/items/viper/viper_ti7_immortal/viper_poison_crimson_attack_ti7_drips.vpcf"
+			"particle"  "particles/econ/items/viper/viper_ti7_immortal/viper_poison_crimson_attack_ti7_explosion_flash_gas.vpcf"
+			"particle"  "particles/econ/items/viper/viper_ti7_immortal/viper_poison_crimson_attack_ti7_explosion_flash_goo.vpcf"
+		}
+		
+		
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.5"
+		"AbilityCastAnimation"			"ACT_DOTA_ATTACK"
+		//"AnimationPlaybackRate"			"5"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"30"
+		"AbilityDuration"				"100"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"100"
+
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	"0"
+		"AbilityModifierSupportBonus"	"0"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"base_damage"			"10 20 30 40"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"increase_per_sec"		"3"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"2000"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"interval"				"1"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"proc_chance"			"5 10 15 20"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"infect_radius"			"250"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration_reduction"	"80 70 60 50"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_reduction"		"0.2 0.3 0.4 0.5"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"resist_reduction"		"0.1 0.15 0.2 0.25"
+			}
+		}
+	}
+}

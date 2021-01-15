@@ -1,0 +1,78 @@
+"DOTAAbilities"
+{
+	"bard_dash"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_dash/bard_dash"
+		"AbilityTextureName"			"bard/bard_dash"
+		"FightRecapLevel"				"1"
+		"MaxLevel"						"1"
+		"precache"
+		{
+			"particle"	"particles/units/heroes/hero_pangolier/pangolier_gyroshell.vpcf"
+			"particle"	"particles/units/heroes/hero_pangolier/pangolier_swashbuckler_dash_rope.vpcf"
+		}
+		
+		// Ability General
+		//------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Ability Casting
+		//------------------------------------------------
+		"AbilityCastRange"				"600"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		//------------------------------------------------
+		"AbilityCooldown"				"10"
+		"AbilityManaCost"				"0"
+
+		// Damage
+		//------------------------------------------------
+
+		// Special
+		//------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"50"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"speed"					"2000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"distance"				"625.0"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"100"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_slow"				"80"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"2"
+			}
+		}
+	}
+}

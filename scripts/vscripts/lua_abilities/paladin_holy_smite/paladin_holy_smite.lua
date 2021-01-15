@@ -1,0 +1,1 @@
+paladin_holy_smite = class({})

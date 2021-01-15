@@ -1,0 +1,355 @@
+"DOTAAbilites"
+{
+	"wizard_blizzard"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/wizard_blizzard/wizard_blizzard"
+		"AbilityTextureName"			"wizard/wizard_blizzard"
+
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_crystalmaiden.vsndevts"
+			"particle"	"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_explosion.vpcf"
+			"particle"	"particles/units/heroes/hero_crystalmaiden/maiden_freezing_field_snow.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.3"
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+		//"AbilityChannelTime"			"10"
+		"AbilityCastRange"				"1000"
+		"AbilityDuration"				"10.0"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"200"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"40 50 60 70 80 90 100"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"5"
+			}		
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"area_of_effect"		"500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"abilitychanneltime"	"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"explosion_radius"		"100"
+			}
+
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"explosion_interval"	"0.1"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"explosion_min_dist"	"0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"explosion_max_dist"	"500"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_slow"			"-30"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"5"
+			}
+
+		}
+	}
+	"cruxal_ice_blast"
+	{
+		// General
+		//-------------------------------------------------------
+		"BaseClass"						"ability_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"FightRecapLevel"				"2"
+		"AbilityTextureName"			"wizard/cruxal_ice_blast"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Precache
+		//-------------------------------------------------------
+		"precache"
+		{
+			"soundfile"			"soundevents/game_sounds_heroes/game_sounds_ancient_apparition.vsndevts"
+			"particle"			"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial.vpcf"
+			"particle"			"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_explode.vpcf"
+			"particle"  		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_death.vpcf"
+			"particle"			"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_sphere_b.vpcf"
+			"particle"			"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial_grid.vpcf"
+			"particle"  		"particles/status_fx/status_effect_iceblast.vpcf"
+		}
+
+		// Casting
+		//-------------------------------------------------------
+		"AbilityCastPoint"				"0"
+		"AbilityCastRange"				"10000"
+		
+		// Time		
+		//-------------------------------------------------------
+		"AbilityCooldown"				"6 5 4 2"
+		
+		// Cost
+		//-------------------------------------------------------
+		"AbilityManaCost"				"0"
+		
+		// Damage.
+		//-------------------------------------------------------
+		"AbilityDamage"					"2000 100000 7500000"
+		
+		// Special
+		//-------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius_min"			"275 275 275"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius_grow"			"50.0 50.0 50.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius_max"			"1000 1000 1000"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"path_radius"			"275 275 275"
+			}
+			"05"
+			{	
+				"var_type"				"FIELD_FLOAT"
+				"frostbite_duration"	"6"
+			}
+			"06"
+			{	
+				"var_type"				"FIELD_FLOAT"
+				"dot_damage"			"50 500 35000"
+			}
+			"07"
+			{	
+				"var_type"				"FIELD_INTEGER"
+				"speed"					"1500 1500 1500 1500"
+			}
+			"08"
+			{	
+				"var_type"				"FIELD_FLOAT"
+				"kill_pct"				"10.0 11.0 12.0"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"target_sight_radius"	"500 500 500"
+			}
+			"10"
+			{	
+				"var_type"				"FIELD_FLOAT"
+				"frostbite_duration_scepter"	"17"
+			}
+			// Extra
+			"11"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"min_time"				"2"
+			}
+			"12"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_speed"			"750"	// This is the actual projectile, not the tracer
+			}
+			"13"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"travel_vision"			"500"
+			}
+			"14"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"travel_vision_duration"	"3.0"
+			}
+			"15"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"area_vision"			"650"
+			}
+			"16"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"area_vision_duration"	"4.0"
+			}
+			"17"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"think_interval"		"1.0"
+			}
+		}
+
+		"OnSpellStart"
+		{
+			"FireSound"
+			{
+				"EffectName"	"Hero_Ancient_Apparition.IceBlast.Tracker" 
+				"Target" 		"CASTER"
+			}
+
+			"RunScript"
+			{
+				"ScriptFile"		"lua_abilities/cruxal_ice_blast/cruxal_ice_blast"
+				"Function"			"cruxal_ice_blast_launch"
+				"Target"			"POINT"
+				"projectile_particle"	"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial.vpcf"
+				"tracer_modifier"	"modifier_dummy_tracer"
+				"tracer_sphere"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_sphere_b.vpcf"
+				"tracer_grid"		"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_initial_grid.vpcf"
+				"main_ability_name"	"ice_blast_datadriven"
+				"sub_ability_name"	"ice_blast_release_datadriven"
+				"modifier"		"modifier_ice_blast_debuff_datadriven"
+				"sound"			"Hero_Ancient_Apparition.IceBlast.Target"
+				"explosion_particle"	"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_explode.vpcf"
+			}
+		}
+
+		"OnProjectileHitUnit"
+		{
+			"DeleteOnHit"	"0"
+			
+			"ApplyModifier"
+			{
+				"ModifierName"	"modifier_ice_blast_debuff_datadriven"
+				"Target"
+				{
+					"Center"	"TARGET"
+					"Types"		"DOTA_UNIT_TARGET_HERO"
+				}
+				"Duration"		"%frostbite_duration"
+			}
+		}
+
+		"Modifiers"
+		{
+			"modifier_dummy_tracer"
+			{
+
+				"States"
+				{
+					"MODIFIER_STATE_FLYING"					"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_HEALTH_BAR"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_NO_UNIT_COLLISION"		"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_UNSELECTABLE"			"MODIFIER_STATE_VALUE_ENABLED"
+					"MODIFIER_STATE_INVULNERABLE"			"MODIFIER_STATE_VALUE_ENABLED"
+				}
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_BONUS_DAY_VISION" 	"%target_sight_radius"
+				    "MODIFIER_PROPERTY_BONUS_NIGHT_VISION"	"%target_sight_radius" 
+				}
+			}
+
+			"modifier_ice_blast_debuff_datadriven"
+			{
+				"IsDebuff"		"1"
+				"IsStunDebuff"		"1"
+				"IsPurgable"	"0"
+
+				"StatusEffectName" 		"particles/status_fx/status_effect_iceblast.vpcf" 	   
+				"StatusEffectPriority"  "10"
+
+				"ThinkInterval"  "%think_interval"
+				"OnIntervalThink"
+				{
+					"FireSound"
+					{
+						"EffectName"	"Hero_Ancient_Apparition.IceBlastRelease.Tick"
+						"Target" 		"TARGET"
+					}
+
+					"Damage"
+					{
+						"Target"		"TARGET"
+						"Type"			"DAMAGE_TYPE_MAGICAL"
+						"Damage"		"%dot_damage"
+					}
+				}
+
+				"OnTakeDamage"
+				{
+					"RunScript"
+					{
+						"ScriptFile"	"worlds/winterblight/monsters/cruxys_ice_blast.lua"
+						"Function"		"cruxal_ice_blast_frostbite"
+					}
+				}
+
+				"OnDeath"
+				{
+					"FireEffect"
+					{
+						"EffectName"        "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_death.vpcf"
+						"EffectAttachType"  "follow_origin"
+						"Target"            "UNIT"
+					}
+				}
+
+				"Properties"
+				{
+					"MODIFIER_PROPERTY_DISABLE_HEALING" "1" 
+				}
+			}
+		}
+	}
+}

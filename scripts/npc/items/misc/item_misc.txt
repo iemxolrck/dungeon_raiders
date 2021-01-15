@@ -1,0 +1,71 @@
+"DOTAAbilities"
+{
+	"item_treant_seed"
+	{
+		"BaseClass"						"item_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_treant_seed"
+		"ItemCost"						"10"
+		"ItemKillable"					"0"
+		"ItemStackable"					"1"
+		"ItemPermanent"					"0"
+		"ItemSellable"					"0"
+		"ItemDroppable"					"1"
+	    "ItemInitialCharges"		    "1"
+		"ItemDisplayCharges"			"0"
+		"InvalidHeroes"					"npc_dota_hero_sven;npc_dota_hero_drow"
+	}
+	
+	"item_golem_core"
+	{
+		"BaseClass"						"item_datadriven"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityTextureName"			"item_golem_core"
+		"ItemCost"						"10"
+		"ItemKillable"					"0"
+		"ItemStackable"					"1"
+		"ItemPermanent"					"0"
+		"ItemSellable"					"0"
+		"ItemDroppable"					"1"
+	    "ItemInitialCharges"		    "1"
+		"ItemDisplayCharges"			"0"
+		"InvalidHeroes"					"npc_dota_hero_invoker;npc_dota_hero_omniknight"
+	}
+
+	"item_chest"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"							"1282"														// Here put a unused ID.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_CHANNELLED|DOTA_ABILITY_BEHAVIOR_NO_TARGET" // here we define it as a channeled item
+		"BaseClass"						"item_datadriven"
+		"AbilityTextureName"			"item_chest" //Here goes the texture name of the item
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE" // make everyone able to use it
+		"Model"							"models/props_winter/present.vmdl"
+		"ItemKillable"					"0" // the chest can't be destroyed when on ground
+		"ItemSellable"					"0" // can't be sold at a shop
+		"ItemPurchasable"				"0" //can't be purchased
+		"ItemDroppable"					"1" // can be put on the ground (set it to 0 if you don't want allow the player to
+		"ItemCost"						"99999" 
+		"ItemQuality"					"artifact"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
+		"AbilityCooldown"				"1.0" //time before the player can open another chest
+		"AbilityChannelTime"			"1.0" //time the player must channel to open the chest
+		
+
+
+		"OnChannelSucceeded"
+		{
+			"RunScript"
+		    {
+		        "ScriptFile"			"lua_datadriven/chest.lua" //create a folder named lua_item in "your_game_mode\scripts\vscripts" and create a text file called chest.lua
+				"Function"				"chest_open" // here we call the function
+				"chest_name"			"chest_1" // here you can give a name to this chest in case you want more than 1 chest type 
+				"gold"					"1" // does this chest give gold or only item ? (0 = no gold , 1 = gold instead of item , 2 = gold + item)
+				"gold_amt"				"1500" // how many gold the chest give if it give out
+				"gold_rand"				"250" // if you want gold to be random
+
+		    }
+		}
+	}
+}

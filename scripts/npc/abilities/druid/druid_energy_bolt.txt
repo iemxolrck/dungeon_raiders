@@ -1,0 +1,98 @@
+"DOTAAbilities"
+{
+	"druid_energy_bolt"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/druid_energy_bolt/druid_energy_bolt"
+		"AbilityTextureName"			"druid/druid_energy_bolt"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+		
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_dazzle.vsndevts"
+			"particle"	"particles/items3_fx/fish_bones_active_ring.vpcf"
+			"particle"	"particles/units/heroes/hero_rubick/rubick_fade_bolt.vpcf"
+			"particle"	"particles/units/heroes/hero_rubick/rubick_fade_bolt_energy.vpcf"
+		}
+	
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"650"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0.5"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			"0"
+		"AbilityCooldown"				"17 15 13 11 9 7 5"
+		"AbilityDuration"				"0"
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				"125"
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					"0"
+		"AbilityModifierSupportValue"	" "
+		"AbilityModifierSupportBonus"	"0"
+		
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"3"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bounce_distance"		"400"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"number_of_bounce"		"4 5 6 7 8 9 10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal"					"100 125 150 175 200 225 250"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"heal_increase"			"7 8 9 10 11 12 13"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_radius"			"200"
+			}
+		}
+	}
+}

@@ -1,0 +1,70 @@
+"DOTAAbilities"
+{
+	"warrior_iron_will"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warrior_iron_will/warrior_iron_will"
+		"AbilityTextureName"			"warrior/warrior_iron_will"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"  "particles/units/heroes/hero_mars/mars_arena_of_blood_heal.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastRangeBuffer"		"0"
+		"AbilityCastPoint"				"0"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"100"
+		"AbilityManaCost"				"0"
+		"AbilitySharedCooldown"			""
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"hp_threshold"			"1"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_health"			"100 90 80"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"10"
+			}
+		}
+	}
+}

@@ -1,0 +1,91 @@
+"DOTAAbilities"
+{
+	"wizard_torrent"
+	{
+		// General
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/wizard_torrent/wizard_torrent"
+		"AbilityTextureName"			"wizard/wizard_torrent"
+
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		"precache"
+		{
+			"particle"  "particles/units/heroes/hero_kunkka/kunkka_spell_torrent_splash.vpcf"
+			"particle"  "particles/units/heroes/hero_kunkka/kunkka_spell_torrent_bubbles.vpcf"
+			"soundfile" "soundevents/game_sounds_heroes/game_sounds_kunkka.vsndevts"
+		}
+
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1500"
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+		
+		// Time		
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"16 14 12 10"
+
+	
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"				"90 100 110 120"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityModifierSupportValue"	"0.5"	// applies 2 modifiers
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"type"						"4"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"radius"					"300"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"geyser_instance"			"0.50"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"drenched_duration"			"5.0"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"geyser"					"5"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"delay"						"1.6 1.6 1.6 1.6"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"torrent_damage"			"150 225 300 375 450 525 600"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"area_of_effect"			"300"
+			}
+		}		
+	}
+}

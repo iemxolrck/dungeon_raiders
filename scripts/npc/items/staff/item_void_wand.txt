@@ -1,0 +1,79 @@
+"DOTAAbilities"
+{
+	"item_void_wand"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"lua_items/staff/item_void_wand/item_void_wand"
+		"AbilityTextureName"			"staff/item_void_wand"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"		
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			
+		}
+
+		// Item Info	
+		// ---------------------------------------------------------------
+		"ItemCost"						"100"
+		"ItemShopTags"					"attack"
+		"ItemQuality"					"component"
+		"ItemAliases"					"chaos staff"
+		"ItemInitialCharges"			"0"
+		"ItemCombinable"				"1"
+		"ItemPermanent"					"1"
+		"ItemStackable"					"0"
+		"ItemRecipe"					"0"
+		"ItemDroppable"					"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemRequiresCharges"			"0"
+		"ItemKillable"					"1"
+		"ItemDisassemblable"			"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemDeclaresPurchase"			"0"
+	    "ItemIsNeutralDrop"             "0"
+	    "ShouldBeInitiallySuggested"	"1"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_1"				"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_2"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"magical_damage"		"30"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"channelreduction"		"50"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"critrate"				"10"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"int"					"10"
+			}
+		}
+	}
+}

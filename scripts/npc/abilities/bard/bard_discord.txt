@@ -1,0 +1,104 @@
+"DOTAAbilities"
+{
+	"bard_discord"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_discord/bard_discord"
+		"AbilityTextureName"			"bard/bard_discord"
+		
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"LinkedAbility"					"bard_discord_cancel"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+		//ACT_DOTA_FXANIM
+		"AnimationPlaybackRate"			"5"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"  "particles/units/heroes/hero_morphling/morphling_morph_str.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.25"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"5"
+		"AbilityManaCost"				"0"
+		"AbilitySharedCooldown"			"bard_toggle"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_speed"			"-50 -75 -100 -125 -150 -175 -200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"evasion"				"-8 -12 -16 -20 -24 -28 -32"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"critrate"				"-10 -15 -20 -25 -30 -35 -40"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"active_movespeed"		"100"
+			}
+		}
+	}
+
+	"bard_discord_cancel"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_discord/bard_discord_cancel"
+		"AbilityTextureName"			"bard/bard_discord_cancel"
+		
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"LinkedAbility"					"bard_discord"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"0"
+		"AbilityCastPoint"				"0.25"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"5"
+		"AbilityManaCost"				"0"
+		"AbilitySharedCooldown"			"bard_toggle"
+
+	}
+}

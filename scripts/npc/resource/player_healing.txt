@@ -1,0 +1,26 @@
+"DOTAAbilities"
+{
+	"player_healing"
+	{
+		//------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/player_resource/player_healing"
+		"AbilityTextureName"			"cleric/cleric_divine_strength"
+		
+		"MaxLevel"						"1"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"int_as_heal"			"1"
+			}
+		}
+	}
+}

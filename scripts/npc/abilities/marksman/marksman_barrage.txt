@@ -1,0 +1,102 @@
+"DOTAAbilities"
+{
+	"marksman_barrage"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/marksman_barrage/marksman_barrage"
+		"AbilityTextureName"			"marksman/marksman_barrage"
+		
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"3"
+		"RequiredLevel"					"1"
+
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_drowranger.vsndevts"
+			"particle"	"particles/units/heroes/hero_drow/drow_multishot_proj_linear_proj.vpcf"
+			"particle"	"particles/units/heroes/hero_drow/drow_base_attack_linear_proj.vpcf"
+			"particle"	"particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf"
+			"particle"  "particles/econ/items/windrunner/windranger_arcana/windranger_arcana_spell_powershot.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL"
+		
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastRange"				"1500"
+		//"AbilityCastAnimation"			"ACT_DOTA_CHANNEL_ABILITY_3"
+		//"AnimationPlaybackRate"			"2"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCharges"				"4"
+		"AbilityChargeRestoreTime"		"30"
+		"AbilityCooldown"				"0.5"
+		"AbilityManaCost"				"0"
+		"AbilityDuration"				"1.0 1.5 2.0 2.5 3.0 3.5 4.0"
+		//"AbilityChannelTime"			"1.0 1.5 2.0 2.5 3.0 3.5 4.0"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"arrow_count"				"5"
+			}			
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"arrow_damage_pct"			"85 110 135 160"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"arrow_slow_duration"		"1.25 2 2.75 3.5"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"arrow_width"				"100"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"arrow_speed"					"2000"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"arrow_range_multiplier"	"2"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"arrow_angle"					"50"
+			}
+		}
+	}
+}

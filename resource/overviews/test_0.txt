@@ -1,0 +1,8 @@
+test_0
+{
+	material materials/overviews/test_0.vmat
+	pos_x -9680
+	pos_y 129
+	scale 16.000
+}
+

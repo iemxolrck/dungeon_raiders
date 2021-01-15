@@ -1,0 +1,7 @@
+druid_protection_of_the_forest = class({})
+
+LinkLuaModifier("modifier_druid_protection_of_the_forest", "lua_abilities/druid_protection_of_the_forest/modifier_druid_protection_of_the_forest", LUA_MODIFIER_MOTION_NONE)
+
+function druid_protection_of_the_forest:GetIntrinsicModifierName()
+	return "modifier_druid_protection_of_the_forest"
+end

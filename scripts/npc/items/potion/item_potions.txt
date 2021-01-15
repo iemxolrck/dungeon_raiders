@@ -1,0 +1,101 @@
+"DOTAAbilities"
+{
+	"item_health_potion"
+	{
+		// General
+		//----------------------------------------------
+		"ID"							"1035"
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"lua_items/potion/item_health_potion/item_health_potion"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityTextureName"			"potion/item_health_potion"
+		"Model"							"models/props_gameplay/salve.vmdl"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		
+		// Item Info
+		//----------------------------------------------
+		"ItemCost"						"50"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemAliases"					"health potion"
+		"ItemStackable"					"1"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"IsTempestDoubleClonable"		"0"
+		"ShouldBeInitiallySuggested"	"1"
+
+		"precache"
+		{
+			"particle"  "particles/items_fx/healing_flask.vpcf"
+		}
+
+		// Special	
+		//----------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_duration"			"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"health_regen"			"40"
+			}
+		}
+	}
+
+	"item_mana_potion"
+	{
+		// General
+		//----------------------------------------------
+		"ID"							"1036"
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"lua_items/potion/item_mana_potion/item_mana_potion"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
+		"AbilityTextureName"			"potion/item_mana_potion"
+		"Model"							"models/props_gameplay/salve_blue.vmdl"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NONE"
+
+		"AbilityCastPoint"				"0.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		
+		// Item Info
+		//----------------------------------------------
+		"ItemCost"						"50"
+		"ItemShopTags"					"consumable"
+		"ItemQuality"					"consumable"
+		"ItemAliases"					"mana potion"
+		"ItemStackable"					"1"
+		"ItemPermanent"					"0"
+		"ItemInitialCharges"			"1"
+		"IsTempestDoubleClonable"		"0"
+		"ShouldBeInitiallySuggested"	"1"
+
+		"precache"
+		{
+			"particle"  "particles/items_fx/healing_clarity.vpcf"
+		}
+
+		// Special	
+		//----------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"buff_duration"			"10"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana_regen"			"25"
+			}
+		}
+	}
+
+}

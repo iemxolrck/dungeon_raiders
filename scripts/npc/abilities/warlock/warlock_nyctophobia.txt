@@ -1,0 +1,33 @@
+"DOTAAbilities"
+{
+	"warlock_nyctophobia"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warlock_nyctophobia/warlock_nyctophobia"
+		"AbilityTextureName"			"warlock/warlock_nyctophobia"
+		
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_to_blind"		"50 75 100"
+			}
+		}
+	}
+}

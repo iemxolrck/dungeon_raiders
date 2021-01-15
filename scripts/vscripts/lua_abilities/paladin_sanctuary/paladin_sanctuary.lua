@@ -1,0 +1,1 @@
+paladin_sanctuary = class({})

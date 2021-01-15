@@ -1,0 +1,75 @@
+"DOTAAbilities"
+{
+	"bard_haste"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_haste/bard_haste"
+		"AbilityTextureName"			"bard/bard_haste"
+		
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"LinkedAbility"					"bard_whispers"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NONE"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{	
+			"soundfile"	"particles/units/heroes/hero_beastmaster/beastmaster_primal_roar_scream.vpcf"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_queenofpain.vsndevts"
+			"particle"	"particles/units/heroes/hero_dark_seer/dark_seer_surge.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1500"
+		"AbilityCastPoint"				"0.4"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"50"
+		"AbilitySharedCooldown"			""
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"1500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"move_speed"			"10 20 30 40 50 60 70"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"agi_as_move_speed"		"20"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"10"
+			}
+		}
+	}
+}

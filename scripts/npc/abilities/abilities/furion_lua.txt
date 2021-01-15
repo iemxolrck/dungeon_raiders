@@ -1,0 +1,106 @@
+"DOTAAbilities"
+{
+	"furion_sprout_lua"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+															
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT"
+		"FightRecapLevel"				"1"
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"furion_sprout"
+		"ScriptFile"					"lua_abilities/furion/furion_sprout_lua"
+		
+		// Unit Targeting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS"
+
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"625 700 775 850"
+		"AbilityCastPoint"				"0.5 0.5 0.5 0.5"
+		"AbilityCooldown"				"11 10 9 8"
+		"AbilityManaCost"				"100 120 140 160"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_range"			"1000"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3 4 5 6"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_tooltip"				"625 700 775 850"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"150.0"		
+			}
+		}
+	}
+	
+	"furion_force_of_nature_lua"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"furion_force_of_nature"
+		"ScriptFile"					"lua_abilities/furion/furion_force_of_nature_lua"
+		
+		// Stats
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"750"
+		"AbilityCastPoint"				"0.5 0.5 0.5 0.5"
+		"AbilityCooldown"				"37 37 37 37"
+		"AbilityManaCost"				"160 160 160 160"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"area_of_effect"		"150 225 300 375"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_treants"			"2 3 4 5"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"60 60 60 60"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_health_tooltip"				"550"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_min_dmg_tooltip"				"22"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"treant_max_dmg_tooltip"				"28"
+			}
+		}
+	}
+}

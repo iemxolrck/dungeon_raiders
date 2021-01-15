@@ -1,0 +1,1 @@
+player_crit_rate = class ({})

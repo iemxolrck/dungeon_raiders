@@ -1,0 +1,51 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_rubick"
+	{		
+		"Ability1"					"wizard_meteor"
+		"Ability2"					"wizard_blizzard"
+		"Ability3"					"wizard_charge_blast"
+		"Ability4"					"wizard_tidal_wave"
+		"Ability5"					"wizard_ice_blast"
+		"Ability6"					"wizard_torrent"
+		"Ability7"					"wizard_arcane_channeling"
+		"Ability8"					"generic_hidden"
+		"Ability9"					"generic_hidden"
+		"Ability10"					"generic_hidden"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+		"Ability27"					"generic_hidden"
+		"Ability28"					"generic_hidden"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"			"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+
+		//"ProjectileModel"				"particles/units/heroes/hero_tusk/tusk_ice_shards_projectile.vpcf"
+
+		"AttributeBaseStrength"			"23"
+		"AttributeBaseAgility"			"17"
+		"AttributeBaseIntelligence"		"35"
+
+		"AttributeStrengthGain"			"2"
+		"AttributeAgilityGain"			"1"
+		"AttributeIntelligenceGain"		"3"
+	}
+
+}

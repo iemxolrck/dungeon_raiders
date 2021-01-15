@@ -1,0 +1,90 @@
+"DOTAAbilities"
+{
+	"bard_bewilder"
+	{
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/bard_bewilder/bard_bewilder"
+		"AbilityTextureName"			"bard/bard_bewilder"
+		
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"LinkedAbility"					"bard_hypnotize"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{	
+			"soundfile"	"particles/units/heroes/hero_beastmaster/beastmaster_primal_roar_scream.vpcf"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_queenofpain.vsndevts"
+			"particle"	"particles/generic_gameplay/generic_stunned_old.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1500"
+		"AbilityCastPoint"				"0.4"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"50"
+		"AbilitySharedCooldown"			""
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"1500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"10"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attacks"				"4 5 6 7 8 9 10"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"10"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"confused_miss_chance"	"8 15 22 29 36 43 50"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"confused_duration"		"3"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_per_kill"		"0.25 0.50 0.75 0.1 1.25 1.50"
+			}
+		}
+	}
+}

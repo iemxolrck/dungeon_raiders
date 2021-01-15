@@ -1,0 +1,18 @@
+#base "class/barbarian.txt"
+#base "class/cleric.txt"
+#base "class/dragoon.txt"
+#base "class/paladin.txt"
+#base "class/warrior.txt"
+
+#base "class/bard.txt"
+#base "class/marksman.txt"
+#base "class/ranger.txt"
+#base "class/rogue.txt"
+#base "class/swordsman.txt"
+
+#base "class/alchemist.txt"
+#base "class/engineer.txt"
+#base "class/druid.txt"
+#base "class/shaman.txt"
+#base "class/warlock.txt"
+#base "class/wizard.txt"

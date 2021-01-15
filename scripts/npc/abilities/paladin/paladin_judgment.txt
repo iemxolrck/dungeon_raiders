@@ -1,0 +1,81 @@
+"DOTAAbilities"
+{
+	"paladin_judgment"
+	{
+
+		// General
+		// ---------------------------------------------------------------
+
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/paladin_judgment/paladin_judgment"
+		"AbilityTextureName"			"paladin/paladin_judgment"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"5"
+		"LevelsBetweenUpgrades"			"5"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"sounds/ui/challenge_failure.vsnd"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_zuus.vsndevts"
+			"particle"	"particles/units/heroes/hero_omniknight/omniknight_repel_cast.vpcf"
+			"particle"	"particles/econ/items/zeus/arcana_chariot/zeus_arcana_thundergods_wrath_start_bolt_parent.vpcf"
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"700"
+		"AbilityCastPoint"				"0.4"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"0.5"		
+		"AbilityCharges"                "3"
+        "AbilityChargeRestoreTime"      "30"
+        "AbilityManaCost"				"85 100 115 130 145"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"skill_factor" 			"100 200 300 400 500"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"skill_damage"			"100 125 150 175 200"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"500"
+			}
+		}
+	}
+	
+}

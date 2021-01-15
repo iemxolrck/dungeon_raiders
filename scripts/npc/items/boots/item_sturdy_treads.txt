@@ -1,0 +1,112 @@
+"DOTAAbilities"
+{
+	//=================================================================================================================
+	// Recipe: Upgraded Boots
+	//=================================================================================================================
+	"item_recipe_sturdy_treads"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"item_datadriven"
+		"Model"							"models/props_gameplay/recipe.vmdl"
+		
+		// Item Info
+		// ---------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					""
+		
+		// Recipe
+		// ---------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_sturdy_treads"
+		"ItemRequirements"
+		{
+			"01"						"item_upgraded_boots;item_red_orb;item_upgrader_1"		
+		}
+	}
+
+	//=================================================================================================================
+	// Upgraded Boots
+	//=================================================================================================================
+	"item_sturdy_treads"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"lua_items/boots/item_sturdy_treads/item_sturdy_treads"
+		"AbilityTextureName"			"boots/item_sturdy_treads"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"		
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			
+		}
+		
+		// Item Info	
+		// ---------------------------------------------------------------
+		"ItemCost"						"1000"
+		"ItemShopTags"					"move_speed"
+		"ItemQuality"					"component"
+		"ItemAliases"					"sturdy treads"
+		"ItemInitialCharges"			"0"
+		"ItemCombinable"				"1"
+		"ItemPermanent"					"1"
+		"ItemStackable"					"0"
+		"ItemRecipe"					"0"
+		"ItemDroppable"					"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemRequiresCharges"			"0"
+		"ItemKillable"					"1"
+		"ItemDisassemblable"			"1"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemDeclaresPurchase"			"1"
+	    "ItemIsNeutralDrop"             "0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_1"				"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_2"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed"				"55"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"armor"					"7"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"magic_resist"			"3"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str"					"10"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attackspeed"			"0"
+			}
+		}
+	}
+
+}

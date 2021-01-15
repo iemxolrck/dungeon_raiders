@@ -1,0 +1,111 @@
+"DOTAAbilities"
+{
+	"wizard_ice_blast"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/wizard_ice_blast/wizard_ice_blast"
+		"AbilityTextureName"			"wizard/wizard_ice_blast"
+		
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"7"
+		"LevelsBetweenUpgrades"			"2"
+		"RequiredLevel"					"1"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+		
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_ancient_apparition.vsndevts"
+			"particle"	"particles/units/heroes/hero_ancient_apparition/aa_ice_blastfinal.vpcf"
+			"particle"	"particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_explode.vpcf"
+			"particle"  "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_death.vpcf"
+			"particle"  "particles/units/heroes/hero_ancient_apparition/ancient_apparition_ice_blast_debuff.vpcf"
+			"particle"  "particles/status_fx/status_effect_iceblast.vpcf"
+			"particle"  "particles/units/heroes/hero_tusk/tusk_ice_shards_projectile.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+		//"AnimationPlaybackRate"			"0.11"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.2"
+		"AbilityChannelTime"			"2"
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"90 100 110 120 130 140 150"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					"0"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"5"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"abilitychanneltime"	"2"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"area_of_effect"		"500"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"200"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"950"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chilled_duration"		"5 5.5 6.0 6.5 7.0 7.5 8.0 8.5"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"frozen_duration"		"3.00 3.25 3.50 3.75 4.00 4.25 4.50"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"frozen_damage"			"250 450 650 850 1050 1450 1850"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"vision_duration"		"6"
+			}
+		}
+	}
+}

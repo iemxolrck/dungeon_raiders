@@ -1,0 +1,8 @@
+barbarian_barbaric_rage = class({})
+
+LinkLuaModifier("modifier_barbarian_barbaric_rage", "lua_abilities/barbarian_barbaric_rage/modifier_barbarian_barbaric_rage", LUA_MODIFIER_MOTION_NONE)
+LinkLuaModifier("modifier_barbarian_barbaric_rage_stack", "lua_abilities/barbarian_barbaric_rage/modifier_barbarian_barbaric_rage_stack", LUA_MODIFIER_MOTION_NONE)
+
+function barbarian_barbaric_rage:GetIntrinsicModifierName()
+	return "modifier_barbarian_barbaric_rage"
+end

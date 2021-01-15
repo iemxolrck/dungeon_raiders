@@ -1,0 +1,663 @@
+"DOTAUnits"
+{
+	"npc_dota_bird"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/props_gameplay/roquelaire/roquelaire.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_hawk"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/heroes/beastmaster/beastmaster_bird.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_eagle"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/beastmaster/hawk/fotw_eagle/fotw_eagle.vmdl"	
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"10"
+		"MagicalResistance"			"75"
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"2000"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_parrot"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/courier/skippy_parrot/skippy_parrot_flying.vmdl"	
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_raven"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/beastmaster/hawk/beast_heart_marauder_beast_heart_marauder_raven/beast_heart_marauder_beast_heart_marauder_raven.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					"bird_circling"			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_nightowl"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/beastmaster/hawk/legacy_of_the_nords_legacy_of_the_nords_owl/legacy_of_the_nords_legacy_of_the_nords_owl.vmdl"
+		//"Model"						"models/heroes/pudge/pudge.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+		//"Creature"
+		//{
+			// default pudge cosmetics
+			//"AttachWearables"
+			//{
+				//"Wearable1"
+				//{
+				//	"ItemDef"			"47"
+				//}
+				//"Wearable2"
+				//{
+				//	"ItemDef"			"258"
+				//}
+				//"Wearable3"
+				//{
+				//	"ItemDef"			"259"
+				//}
+				//"Wearable4"
+				//{
+				//	"ItemDef"			"260"
+				//}
+				//"Wearable5"
+				//{
+				//	"ItemDef"			"261"
+				//}
+				//"Wearable6"
+				//{
+				//	"ItemDef"			"262"
+				//}
+			//}
+		//}
+	}
+
+	"npc_dota_falcon"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/beastmaster/hawk/ti9_cache_beastmaster_king_of_beasts_hawk/ti9_cache_beastmaster_king_of_beasts_hawk.vmdl"	
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+	"npc_dota_pterohawk"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/beastmaster/hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk/ti9_cache_beast_master_dinosaurs_telepathy_hawk.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+
+	"npc_dota_chief_raven"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/batrider/batrider_ti8_immortal_mount/batrider_ti8_immortal_mount.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+	"npc_dota_raiq"
+	{										
+		// General
+		//----------------------------------------------------------------
+		"Model"						"models/items/courier/raiq/raiq_flying.vmdl"
+		"BaseClass"					"npc_dota_creep_neutral"
+		"SoundSet"					"0"
+		"Level"						"6"
+		"ModelScale"				"1.2"
+		"IsSummoned"				"1"
+		"UnitLabel"					"hawk"
+
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					"phoenix_icarus_dive"			// Ability 1
+		"Ability2"					"level_plus"			// Ability 2
+		"Ability3"					""			// Ability 3
+		"Ability4"					"phoenix_icarus_dive_stop"			// Ability 4
+
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"5"			// Physical protection.
+
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+
+		// Bounds
+		//----------------------------------------------------------------
+		"HealthBarOffset"			"165"
+
+		// Bounty
+		//----------------------------------------------------------------
+		"BountyXP"					"77"		// Experience earn.
+		"BountyGoldMin"				"65"		// Gold earned min.
+		"BountyGoldMax"				"65"		// Gold earned max.
+
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_FLY"
+		"MovementSpeed"				"550"		// Speed.
+		"MovementTurnRate"			"0.3"		// Turning rate.
+
+		// Status
+		//----------------------------------------------------------------
+		"StatusHealth"				"100"		// Base health.
+		"StatusHealthRegen"			"1.5"		// Health regeneration rate.
+		
+		// Vision
+		//----------------------------------------------------------------
+		"VisionDaytimeRange"		"1600"		// Range of vision during day light.
+		"VisionNighttimeRange"		"1200"		// Range of vision at night time.
+
+		// Team
+		//----------------------------------------------------------------
+		"TeamName"					"DOTA_TEAM_NEUTRALS"							// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_BASIC"
+		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
+		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
+		
+		"WakesNeutrals"				"0"
+	}
+}

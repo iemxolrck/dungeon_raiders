@@ -1,0 +1,49 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_omniknight"
+	{
+		"Ability1"					"cleric_healing_light"
+		"Ability2"					"cleric_divine_protection"
+		"Ability3"					"cleric_blessing"
+		"Ability4"					"cleric_turn_undead"
+		"Ability5"					"cleric_resurrection"
+		"Ability6"					"cleric_mass_heal"
+		"Ability7"					"return_lua"
+		"Ability8"					"cleric_divine_strength"
+		"Ability9"					"cleric_restoration"
+		"Ability10"					"cleric_clairvoyance"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"generic_hidden"
+		"Ability27"					"generic_hidden"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
+
+		"AttributeBaseStrength"			"25"
+		"AttributeBaseAgility"			"25"
+		"AttributeBaseIntelligence"		"25"
+
+		"AttributeStrengthGain"			"3"
+		"AttributeAgilityGain"			"2"
+		"AttributeIntelligenceGain"		"1"
+
+	}
+
+}

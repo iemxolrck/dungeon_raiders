@@ -1,0 +1,80 @@
+"DOTAAbilities"	
+{
+	"shaman_synchronize"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/shaman_synchronize/shaman_synchronize"
+		"AbilityTextureName"			"shaman/shaman_synchronize"
+		"FightRecapLevel"				"2"
+		"MaxLevel"						"3"
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_abaddon.vsndevts"
+			"particle"	"particles/units/heroes/hero_abaddon/abaddon_aphotic_shield.vpcf"
+		}
+		
+		// Ability General
+		// ---------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMIES"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NONE"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastPoint"				"0"
+		"AbilityChannelTime"			"0"
+		"AbilityDuration"				"10"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"50 40 30"
+		"AbilityManaCost"				"0"
+
+		// Damage
+		// ---------------------------------------------------------------
+		"AbilityDamage"					""
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_STRING"
+				"type"					"Earth"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"radius"				"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_hit"				"5 7 9"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"damage_per_stack"		"100"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_radius"			"500"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"10"
+			}
+		}
+	}
+}

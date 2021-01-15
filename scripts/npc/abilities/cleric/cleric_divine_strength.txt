@@ -1,0 +1,38 @@
+"DOTAAbilities"
+{
+	"cleric_divine_strength"
+	{
+		//------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/cleric_divine_strength/cleric_divine_strength"
+		"AbilityTextureName"			"cleric/cleric_divine_strength"
+		
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"str_as_int"			"50 75 100"
+			}
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"int_as_heal"			"10 15 20"
+			}
+		}
+	}
+}

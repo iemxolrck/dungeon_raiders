@@ -1,0 +1,86 @@
+"DOTAAbilities"
+{
+	"warlock_soulbind"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/warlock_soulbind/warlock_soulbind"
+		"AbilityTextureName"			"warlock/warlock_soulbind"
+		"FightRecapLevel"				"2"
+		"MaxLevel"						"7"
+
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_grimstroke.vsndevts"
+//			"particle"	"particles/units/heroes/hero_<hero>/<hero>_<ability>.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastAnimation"			"ACT_DOTA_FATAL_BONDS"
+		"AbilityCastRange"				"1000"
+		"AbilityCastGestureSlot"		"DEFAULT"
+		"AbilityCastPoint"				"0.2"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"250"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"type"						"6"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"chain_distance"			"700"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"damage_reflect"			"100 125 150 175 200 225 250"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"heal_percent"				"50"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"drag_speed"				"2000.0"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"movement_slow"				"15 30 45"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"duration"					"10.0"
+			}
+		}
+	}
+}

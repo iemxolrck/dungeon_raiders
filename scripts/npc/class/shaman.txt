@@ -1,0 +1,50 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_shadow_shaman"
+	{
+		"Ability1"					"shaman_mystic_snake"
+		"Ability2"					"shaman_wildshape"
+		"Ability3"					"generic_hidden"
+		"Ability4"					"shaman_maximize"
+		"Ability5"					"shaman_minimize"
+		"Ability6"					"shaman_prince_of_stag"
+		"Ability7"					"shaman_protection_from_death"
+		"Ability8"					"shaman_resurrecting_light"
+		"Ability9"					"shaman_synchronize"
+		"Ability10"					"generic_hidden"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+
+		"ProjectileModel"				"particles/units/heroes/hero_medusa/medusa_mystic_snake_projectile.vpcf"
+
+		"AttributeBaseStrength"			"24"
+		"AttributeBaseAgility"			"21"
+		"AttributeBaseIntelligence"		"30"
+
+		"AttributeStrengthGain"			"2"
+		"AttributeAgilityGain"			"1"
+		"AttributeIntelligenceGain"		"3"
+	
+	}
+
+}

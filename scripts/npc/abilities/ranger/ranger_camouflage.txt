@@ -1,0 +1,73 @@
+"DOTAAbilities"
+{
+	"ranger_camouflage"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/ranger_camouflage/ranger_camouflage"
+		"AbilityTextureName"			"ranger/ranger_camouflage"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		
+
+		// Leveling
+		// ---------------------------------------------------------------
+		"MaxLevel"						"3"
+		"LevelsBetweenUpgrades"			"10"
+		"RequiredLevel"					"10"
+		
+		"OnCastbar"						"1"
+		"OnLearnbar"					"1"
+		"FightRecapLevel"				"0"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			
+		}
+
+		// Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"100"
+		"AbilityCastRangeBuffer"		"100"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityChannelTime"			""
+		"AbilityCooldown"				"10 7 3"
+		"AbilityDuration"				""
+		"AbilitySharedCooldown"			""
+		"AbilityManaCost"				""
+		
+		// Other
+		// ---------------------------------------------------------------
+		"AbilityDamage"					""
+		"AbilityModifierSupportValue"	"1.0"
+		"AbilityModifierSupportBonus"	"0"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"100"
+			}
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed"				"10 30 50"
+			}
+		}
+	}
+}

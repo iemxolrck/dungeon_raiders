@@ -1,0 +1,18 @@
+"DOTAAbilities"
+{
+	"bard_empty"
+	{
+		// General
+		// ---------------------------------------------------------------
+
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/generic/empty/bard_empty"
+
+		"MaxLevel"						"1"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		
+	}	
+}

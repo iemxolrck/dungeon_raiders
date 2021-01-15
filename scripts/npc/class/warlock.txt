@@ -1,0 +1,48 @@
+"DOTAHeroes"
+{
+	"npc_dota_hero_warlock"
+	{
+		"Ability1"					"warlock_shadowraze"
+		"Ability2"					"warlock_soulbind"
+		"Ability3"					"warlock_eldritch_blast"
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"generic_hidden"
+		"Ability7"					"warlock_nyctophobia"
+		"Ability8"					"generic_hidden"
+		"Ability9"					"generic_hidden"
+		"Ability10"					"generic_hidden"
+		"Ability11"					"generic_hidden"
+		"Ability12"					"generic_hidden"
+		"Ability13"					"generic_hidden"
+		"Ability14"					"generic_hidden"
+		"Ability15"					"generic_hidden"
+		"Ability16"					"generic_hidden"
+		"Ability17"					"generic_hidden"
+		"Ability18"					"generic_hidden"
+		"Ability19"					"generic_hidden"
+		"Ability20"					"generic_hidden"
+		"Ability21"					"generic_hidden"
+		"Ability22"					"generic_hidden"
+		"Ability23"					"generic_hidden"
+		"Ability24"					"generic_hidden"
+		"Ability25"					"generic_hidden"
+		"Ability26"					"return_lua"
+
+		"AbilityTalentStart" 		"28"
+
+		"StatusHealthRegen"		"0"
+
+		"AttributePrimary"				"DOTA_ATTRIBUTE_INTELLECT"
+
+		"AttributeBaseStrength"			"21"
+		"AttributeBaseAgility"			"20"
+		"AttributeBaseIntelligence"		"34"
+
+		"AttributeStrengthGain"			"2"
+		"AttributeAgilityGain"			"1"
+		"AttributeIntelligenceGain"		"3"
+		
+	}
+
+}

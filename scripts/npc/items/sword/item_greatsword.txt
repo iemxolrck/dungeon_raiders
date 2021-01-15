@@ -1,0 +1,79 @@
+"DOTAAbilities"
+{
+	"item_greatsword"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"ScriptFile"					"lua_items/sword/item_greatsword/item_greatsword"
+		"AbilityTextureName"			"sword/item_greatsword"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"		
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"particle"  "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
+		}
+
+		// Item Info	
+		// ---------------------------------------------------------------
+		"ItemCost"						"500"
+		"ItemShopTags"					"attack"
+		"ItemQuality"					"component"
+		"ItemAliases"					"greatsword"
+		"ItemInitialCharges"			"0"
+		"ItemCombinable"				"1"
+		"ItemPermanent"					"1"
+		"ItemStackable"					"0"
+		"ItemRecipe"					"0"
+		"ItemDroppable"					"1"
+		"ItemPurchasable"				"1"
+		"ItemSellable"					"1"
+		"ItemRequiresCharges"			"0"
+		"ItemKillable"					"1"
+		"ItemDisassemblable"			"0"
+		"ItemShareability"				"ITEM_NOT_SHAREABLE"
+		"ItemDeclaresPurchase"			"0"
+	    "ItemIsNeutralDrop"             "0"
+	    "ShouldBeInitiallySuggested"	"1"
+
+	    // Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_1"				"0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type_2"				"0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"physical_damage"		"50"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"attack_range_melee"	"75"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cleave_damage"			"25"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cleave_radius"			"200"
+			}
+		}
+	}
+}

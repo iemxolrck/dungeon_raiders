@@ -1,0 +1,79 @@
+"DOTAAbilities"	
+{
+	"shaman_resurrecting_light"
+	{
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/shaman_resurrecting_light/shaman_resurrecting_light"
+		"AbilityTextureName"			"shaman/shaman_resurrecting_light"
+		"FightRecapLevel"				"2"
+		"MaxLevel"						"3"
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_skeletonking.vsndevts"
+			"particle"	"particles/units/heroes/hero_skeletonking/wraith_king_reincarnate.vpcf"
+			"particle"	"particles/units/heroes/hero_skeletonking/wraith_king_reincarnate_slow_debuff.vpcf"
+		}
+		
+		// Ability General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_DEAD"
+
+		// Ability Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"				"750"
+		"AbilityCastRangeBuffer"		"250"
+		"AbilityCastPoint"				"0.3"
+		"AbilityChannelTime"			"0"
+		"AbilityDuration"				"0.0"
+
+		// Ability Resource
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"				"0"
+		"AbilityManaCost"				"200"
+
+		// Damage
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityDamage"					""
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"1"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reincarnate_time"		"3.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"resurrect_chance"		"10 30 50"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"ally_chance"			"20 40 60"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"resurrect_radius"		"750"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_chance"			"10"
+			}
+		}
+	}
+}

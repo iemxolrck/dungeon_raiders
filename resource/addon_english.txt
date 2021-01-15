@@ -1,0 +1,1097 @@
+"lang"
+{
+	"Language"		"English"
+	"Tokens"
+	{		
+		"addon_game_name"															"DUNGEON HUNTERS"
+
+		"DOTA_SUBSHOP_CONSUMABLES"													"Consumables"
+		"DOTA_SUBSHOP_ATTRIBUTES"													"Weapons"
+		"DOTA_SUBSHOP_WEAPONS_ARMOR"												"Armor"
+		"DOTA_SUBSHOP_MISC"															"Upgrades"
+
+		"dota_ability_variable_physical_damage"										"Physical Damage"
+		"dota_ability_variable_magical_damage"										"Magical Damage"
+
+		"dota_ability_variable_health"												"Health"					// $health
+		"dota_ability_variable_mana"												"Mana"						// $mana
+		"dota_ability_variable_armor"												"Armor"						// $armor
+		"dota_ability_variable_damage"												"Damage"					// $damage
+		"dota_ability_variable_str"													"Strength"					// $str
+		"dota_ability_variable_int"													"Intelligence"				// $int
+		"dota_ability_variable_agi"													"Agility"					// $agi
+		"dota_ability_variable_all"													"All Attributes"			// $all
+		"dota_ability_variable_attackspeed"											"Attack Speed"				// $attack
+		"dota_ability_variable_castspeed"											"Cast Speed"				// $attack
+		"dota_ability_variable_hp_regen"											"HP Regeneration"			// $hp_regen
+		"dota_ability_variable_mana_regen"											"Mana Regeneration"			// $mana_regen
+		"dota_ability_variable_spell_amp"									     	"Spell Damage"				// $spell_amp
+		"dota_ability_variable_move_speed"											"Movement Speed"			// $move_speed
+		"dota_ability_variable_evasion"												"Evasion"					// $evasion
+		"dota_ability_variable_magic_resist"										"Magic Resistance"			// $magic_resist
+		"dota_ability_variable_selected_attrib"										"Selected Attribute"		// $selected_attribute
+		"dota_ability_variable_attack_range"										"Attack Range <font color='#7d7d7d'>(Ranged Only)</font>"    // $attack_range
+		"dota_ability_variable_attack_range_melee"									"Attack Range <font color='#7d7d7d'>(Melee Only)</font>"    // $attack_range_melee
+		"dota_ability_variable_castrange"								   			"Cast Range"                // $cast_range
+		"dota_ability_variable_status_resist"										"Status Resistance"         // $status_resist
+		"dota_ability_variable_critdamage"											"Critical Damage"        	// $critdamage
+		"dota_ability_variable_critrate"											"Critical Rate"      	  	// $critrate
+		"dota_ability_variable_block"												"Block Chance"
+		"dota_ability_variable_channelreduction"									"Channel Time Reduction"    // $channelprotection
+		"dota_ability_variable_channelprotection"									"Channeling Protection"   	// $channelreduction
+		"dota_ability_variable_physical_damage"										"Physical Damage"			// $damage
+		"dota_ability_variable_magical_damage"										"Magical Damage"			// $damage
+		"dota_ability_variable_splash_damage"										"Splash Damage"			// $splash_damage
+		"dota_ability_variable_splash_radius"										"Splash Radius"			// $splash_radius
+		"dota_ability_variable_cleave_damage"										"Cleave Damage"			// $cleave_damage
+		"dota_ability_variable_cleave_radius"										"Cleave Radius"			// $cleave_radius
+		
+		"dota_ability_variable_meteor_radius"										"[<font color=\"#FFD700\">Meteor</font>] Radius"				// $meteor_radius
+		"dota_ability_variable_blizzard_interval"									"[<font color=\"#FFD700\">Blizzard</font>] Explosion Interval and Channel Time Reduction"			// $blizzard_interval
+		"dota_ability_variable_iron_skin_resist"									"[<font color=\"#FFD700\">Iron Skin</font>] Damage Resistance"			// $blizzard_interval
+
+		// $fire_damage
+		"dota_ability_variable_fire_damage"											"Fire Damage"
+		// $water_damage
+		"dota_ability_variable_water_damage"										"Water Damage"
+		// $air_damage
+		"dota_ability_variable_air_damage"											"Air Damage"
+		// $earth_damage
+		"dota_ability_variable_earth_damage"										"Earth Damage"
+		// $lightning_damage
+		"dota_ability_variable_lightning_damage"									"Lightning Damage"
+		// $ice_damage
+		"dota_ability_variable_ice_damage"											"Ice Damage"					
+		// $holy_damage
+		"dota_ability_variable_holy_damage"											"Holy Damage"
+		// $dark_damage
+		"dota_ability_variable_dark_damage"											"Dark Damage"	
+		// $poison_damage
+		"dota_ability_variable_poison_damage"										"Poison Damage"	
+		
+		"DOTA_Tooltip_examplemodifier"												"Useless Modifier"
+		"DOTA_Tooltip_examplemodifier_description"									"Useless number: %dMODIFIER_PROPERTY_TOOLTIP%"
+
+		"DOTA_Tooltip_Ability_exampleability"										"Useless Ability"
+		"DOTA_Tooltip_Ability_exampleability_Description"							"Whenever you use this ability, a kitten dies!"
+		"DOTA_Tooltip_Ability_exampleability_Note0"									"DONT PRESS ALT!!1! \n NOOB!"
+		"DOTA_Tooltip_Ability_exampleability_Lore"									"This Ability was poorly coded at 4am by a cookie monster."
+		"DOTA_Tooltip_Ability_exampleability_duration"								"KITTEN KILL TIME:" 		// Showing the values (duration) from the npc_abilities_custom.txt file
+		"DOTA_Tooltip_exampleabilitymodifier"										"Kitten being tortured"
+		"DOTA_Tooltip_exampleabilitymodifier_Description"							"...to death!"
+
+		"DOTA_Tooltip_Ability_special_bonus_exampletalent"							"Useless Talent"
+
+		"DOTA_Tooltip_Ability_Item_Tombstone"										"Resurrect Teammate"
+
+		"DOTA_Tooltip_modifier_watch_tower_invulnerable_butt"						"DOTA_Tooltip_modifier_watch_tower_invulnerable" 
+		
+		"DOTA_Tooltip_modifier_watch_tower_invulnerable_butt_Description" 			"DOTA_Tooltip_modifier_watch_tower_invulnerable_Description" 
+
+		"npc_dota_hero_dragon_knight" 												"Knight"
+		"npc_dota_hero_axe"		 													"Barbarian"
+		"npc_dota_hero_omniknight"													"Cleric"
+		"npc_dota_hero_sven"														"Paladin"
+		"npc_dota_hero_mars"														"Dragoon"
+
+		"npc_dota_hero_pangolier" 													"Bard"
+		"npc_dota_hero_drow_ranger" 												"Marksman"
+		"npc_dota_hero_windrunner"													"Ranger"
+		"npc_dota_hero_phantom_assassin" 											"Rogue"
+		"npc_dota_hero_juggernaut" 													"Swordsman"
+
+		"npc_dota_hero_invoker" 													"Wizard"
+		"npc_dota_hero_furion"	 													"Druid"
+		"npc_dota_hero_tinker"	 													"Engineer"
+		"npc_dota_hero_warlock"														"Warlock"
+		"npc_dota_hero_shadow_shaman"												"Shaman"
+		"npc_dota_hero_slark"														"Alchemist"
+
+		"npc_dota_druid_treant"														"Treant"
+		"npc_dota_druid_golem"														"Golem"
+		"npc_dota_ranger_trap"														"Trap"
+
+		"dota_tooltip_ability_item_upgrader_1"										"Item Upgrader"
+		"dota_tooltip_ability_item_upgrader_1_Description"							"Use to upgrade common items. "
+		
+		"dota_tooltip_ability_item_health_potion"									"Health Potion"
+		"dota_tooltip_modifier_item_health_potion"									"Health Potion"
+		
+		"dota_tooltip_ability_item_mana_potion"										"Mana Potion"
+		"dota_tooltip_modifier_item_mana_potion"									"Health Potion"
+
+		"dota_tooltip_ability_item_basic_axe"										"Axe"
+		"dota_tooltip_ability_item_basic_axe_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_axe_note0"									"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_axe_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_basic_axe_attackspeed"							"+$attackspeed"
+		"dota_tooltip_ability_item_basic_axe_cleave_damage"							"%+$cleave_damage"
+		"dota_tooltip_ability_item_basic_axe_cleave_radius"							"+$cleave_radius"
+
+		"dota_tooltip_ability_item_basic_dagger"									"Dagger"
+		"dota_tooltip_ability_item_basic_dagger_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_dagger_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_dagger_physical_damage"					"+$physical_damage"
+		"dota_tooltip_ability_item_basic_dagger_attackspeed"						"+$attackspeed"
+		"dota_tooltip_ability_item_basic_dagger_critrate"							"%+$critrate"
+
+		"dota_tooltip_ability_item_basic_sword"										"Basic Sword"
+		"dota_tooltip_ability_item_basic_sword_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_sword_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_sword_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_basic_sword_attackspeed"							"+$attackspeed"
+
+		"dota_tooltip_ability_item_greatsword"										"Greatsword"
+		"dota_tooltip_ability_item_greatsword_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_greatsword_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_greatsword_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_greatsword_attack_range_melee"					"+$attack_range_melee"
+		"dota_tooltip_ability_item_greatsword_cleave_damage"						"%+$cleave_damage"
+		"dota_tooltip_ability_item_greatsword_cleave_radius"						"+$cleave_radius"
+
+		"dota_tooltip_ability_item_basic_spear"										"Spear"
+		"dota_tooltip_ability_item_basic_spear_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_spear_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_spear_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_basic_spear_critrate"							"%+$critrate"
+		"dota_tooltip_ability_item_basic_spear_attack_range_melee"					"+$attack_range_melee"
+
+		"dota_tooltip_ability_item_basic_mace"										"Mace"
+		"dota_tooltip_ability_item_basic_mace_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_mace_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_mace_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_basic_mace_channelreduction"						"%+$channelreduction"
+		"dota_tooltip_ability_item_basic_mace_splash_damage"						"%+$splash_damage"
+		"dota_tooltip_ability_item_basic_mace_splash_radius"						"+$splash_radius"
+
+		"dota_tooltip_ability_item_basic_bow"										"Bow"
+		"dota_tooltip_ability_item_basic_bow_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_bow_note0"									"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_bow_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_basic_bow_attackspeed"							"+$attackspeed"
+		"dota_tooltip_ability_item_basic_bow_attackrange"							"+$attack_range"
+
+		"dota_tooltip_ability_item_triple_head"										"Triple Head"
+		"dota_tooltip_ability_item_triple_head_Description"							"<h1>Passive: Third's the Charm</h1>Every third attack deals [Critical Strike]. Gains bonus attack range. "
+		"dota_tooltip_ability_item_triple_head_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_triple_head_physical_damage"						"+$physical_damage"
+		"dota_tooltip_ability_item_triple_head_attackspeed"							"+$attackspeed"
+		"dota_tooltip_ability_item_triple_head_attackrange"							"+$attack_range"
+
+		"dota_tooltip_modifier_item_triple_head_crit"								"Triple Head: Critical Hit"
+		"dota_tooltip_modifier_item_triple_head_crit_description"					"Your next attack will deal [Critical Strike]."
+
+		"dota_tooltip_ability_item_golden_touch"									"Golden Touch"
+		"dota_tooltip_ability_item_golden_touch_Description"						"<h1>Passive: A Touch of Gold</h1>Killing enemies has a %proc_chance%%% chance of earning [%gold_per_level% x level] bonus gold. "
+		"dota_tooltip_ability_item_golden_touch_castspeed"							"%+$castspeed"
+		"dota_tooltip_ability_item_golden_touch_attackspeed"						"+$attackspeed"
+		"dota_tooltip_ability_item_golden_touch_all"								"+$all"
+		"dota_tooltip_ability_item_golden_touch_Lore"								""
+
+		"dota_tooltip_ability_item_basic_chainmail"									"Basic Chainmail"
+		"dota_tooltip_ability_item_basic_chainmail_Description"						"Provides bonus armor. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_chainmail_note0"							"Provides bonus armor. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_chainmail_armor"							"+$armor"
+		"dota_tooltip_ability_item_basic_chainmail_Lore"							"Provides bonus armor. Does not stack with other armor. "
+
+		"dota_tooltip_ability_item_basic_cloak"										"Basic Cloak"
+		"dota_tooltip_ability_item_basic_cloak_Description"							"Provides bonus armor and magic resistance. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_cloak_note0"								"Provides bonus armor and magic resistance. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_cloak_armor"								"+$armor"
+		"dota_tooltip_ability_item_basic_cloak_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_basic_cloak_Lore"								"Provides bonus armor and magic resistance. Does not stack with other armor. "
+		
+		"dota_tooltip_ability_item_basic_robe"										"Basic Robe"
+		"dota_tooltip_ability_item_basic_robe_Description"							"Provides bonus magic resistance. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_robe_note0"								"Provides bonus magic resistance. Does not stack with other armor. "
+		"dota_tooltip_ability_item_basic_robe_magic_resist"							"%+$magic_resist"
+		"dota_tooltip_ability_item_basic_robe_Lore"									"Provides bonus magic resistance. Does not stack with other armor. "
+		
+		"dota_tooltip_ability_item_sorcery_cape"									"Sorcery Cape"
+		"dota_tooltip_ability_item_sorcery_cape_Description"						"Provides bonus magic resistance. Does not stack with other armor. "
+		"dota_tooltip_ability_item_sorcery_cape_note0"								"[Channeling Protection] reduces damage taken while channeling. "
+		"dota_tooltip_ability_item_sorcery_cape_armor"								"+$armor"
+		"dota_tooltip_ability_item_sorcery_cape_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_sorcery_cape_channelprotection"					"%+$channelprotection"
+		"dota_tooltip_ability_item_sorcery_cape_Lore"								"Provides bonus magic resistance. Does not stack with other armor. "
+		
+		"dota_tooltip_ability_item_vigilance"										"Vigilance"
+		"dota_tooltip_ability_item_vigilance_Description"							"Provides bonus armor. Does not stack with other armor. "
+		"dota_tooltip_ability_item_vigilance_note0"									"Provides bonus armor. Does not stack with other armor. "
+		"dota_tooltip_ability_item_vigilance_armor"									"+$armor"
+		"dota_tooltip_ability_item_vigilance_magic_resist"							"%+$magic_resist"
+		"dota_tooltip_ability_item_vigilance_block"									"%+$block"
+		"dota_tooltip_ability_item_vigilance_str"									"+$str"
+		"dota_tooltip_ability_item_vigilance_iron_skin_resist"						"%+$iron_skin_resist"
+		"dota_tooltip_ability_item_vigilance_Lore"									"Provides bonus armor. Does not stack with other armor. "
+
+		"dota_tooltip_ability_item_basic_slippers"									"Slippers"
+		"dota_tooltip_ability_item_basic_slippers_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_slippers_note0"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_slippers_movespeed"						"+$move_speed"
+		
+		"dota_tooltip_ability_item_basic_boots"										"Basic Boots"
+		"dota_tooltip_ability_item_basic_boots_Description"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_boots_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_basic_boots_movespeed"							"+$move_speed"
+		"dota_tooltip_ability_item_basic_boots_armor"								"+$armor"
+		"dota_tooltip_ability_item_basic_boots_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_basic_boots_Lore"								"Provides bonus movement speed. Does not stack with other boots. "
+		
+		"dota_tooltip_ability_item_upgraded_boots"									"Upgraded Boots"
+		"dota_tooltip_ability_item_upgraded_boots_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_upgraded_boots_note0"							"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_upgraded_boots_movespeed"						"+$move_speed"
+		"dota_tooltip_ability_item_upgraded_boots_armor"							"+$armor"
+		"dota_tooltip_ability_item_upgraded_boots_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_upgraded_boots_Lore"								"Provides bonus movement speed. Does not stack with other boots. "
+
+		"dota_tooltip_ability_item_sturdy_treads"									"Sturdy Treads"
+		"dota_tooltip_ability_item_sturdy_treads_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_sturdy_treads_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_sturdy_treads_str"								"+$str"
+		"dota_tooltip_ability_item_sturdy_treads_movespeed"							"+$move_speed"
+		"dota_tooltip_ability_item_sturdy_treads_armor"								"+$armor"
+		"dota_tooltip_ability_item_sturdy_treads_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_sturdy_treads_Lore"								"Provides bonus movement speed. Does not stack with other boots. "
+
+		"dota_tooltip_ability_item_swift_treads"									"Swift Treads"
+		"dota_tooltip_ability_item_swift_treads_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_swift_treads_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_swift_treads_agi"								"+$agi"
+		"dota_tooltip_ability_item_swift_treads_movespeed"							"+$move_speed"
+		"dota_tooltip_ability_item_swift_treads_armor"								"+$armor"
+		"dota_tooltip_ability_item_swift_treads_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_swift_treads_attackspeed"						"+$attackspeed"
+		"dota_tooltip_ability_item_swift_treads_Lore"								"Provides bonus movement speed. Does not stack with other boots. "
+
+		"dota_tooltip_ability_item_void_wand"										"Void Wand"
+		"dota_tooltip_ability_item_void_wand_note0"									"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_void_wand_magical_damage"						"+$magical_damage"
+		"dota_tooltip_ability_item_void_wand_channelreduction"						"%+$channelreduction"
+		"dota_tooltip_ability_item_void_wand_critrate"								"%+$critrate"
+		"dota_tooltip_ability_item_void_wand_int"									"+$int"
+		"dota_tooltip_ability_item_void_wand_Lore"									"From the void whence it came. "
+		
+		"dota_tooltip_ability_item_chaos_staff"										"Chaos Staff"
+		"dota_tooltip_ability_item_chaos_staff_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_chaos_staff_magical_damage"						"+$magical_damage"
+		"dota_tooltip_ability_item_chaos_staff_castrange"							"+$castrange"
+		"dota_tooltip_ability_item_chaos_staff_critdamage"							"%+$critdamage"
+		"dota_tooltip_ability_item_chaos_staff_int"									"+$int"
+		"dota_tooltip_ability_item_chaos_staff_meteor_radius"						"+$meteor_radius"
+		"dota_tooltip_ability_item_chaos_staff_Lore"								"Crafted from the core of a meteor, casted by an Archmage. "
+
+		"dota_tooltip_ability_item_frost_rod"										"Frost Rod"
+		"dota_tooltip_ability_item_frost_rod_note0"									"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_frost_rod_magical_damage"						"+$magical_damage"
+		"dota_tooltip_ability_item_frost_rod_channelreduction"						"%+$channelreduction"
+		"dota_tooltip_ability_item_frost_rod_castrange"								"+$castrange"
+		"dota_tooltip_ability_item_frost_rod_int"									"+$int"
+		"dota_tooltip_ability_item_frost_rod_blizzard_interval"						"%+$blizzard_interval"
+		"dota_tooltip_ability_item_frost_rod_Lore"									"From the void whence it came. "
+		
+		"dota_tooltip_ability_item_arcane_treads"									"Arcane Treads"
+		"dota_tooltip_ability_item_arcane_treads_Description"						"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_arcane_treads_note0"								"Provides bonus movement speed. Does not stack with other boots. "
+		"dota_tooltip_ability_item_arcane_treads_int"								"+$int"
+		"dota_tooltip_ability_item_arcane_treads_movespeed"							"+$move_speed"
+		"dota_tooltip_ability_item_arcane_treads_armor"								"+$armor"
+		"dota_tooltip_ability_item_arcane_treads_magic_resist"						"%+$magic_resist"
+		"dota_tooltip_ability_item_arcane_treads_Lore"								"Provides bonus movement speed. Does not stack with other boots. "
+	
+		"dota_tooltip_ability_item_red_orb"											"Red Orb"
+		"dota_tooltip_ability_item_red_orb_Description"								"Provides Strength. "
+		"dota_tooltip_ability_item_red_orb_note0"									"Provides Strength. "
+		"dota_tooltip_ability_item_red_orb_str"										"+$str"
+
+		"dota_tooltip_ability_item_green_orb"										"Green Orb"
+		"dota_tooltip_ability_item_green_orb_Description"							"Provides Agility. "
+		"dota_tooltip_ability_item_green_orb_note0"									"Provides Agility. "
+		"dota_tooltip_ability_item_green_orb_agi"									"+$agi"
+
+		"dota_tooltip_ability_item_blue_orb"										"Blue Orb"
+		"dota_tooltip_ability_item_blue_orb_Description"							"Provides Intelligence. "
+		"dota_tooltip_ability_item_blue_orb_note0"									"Provides Intelligence. "
+		"dota_tooltip_ability_item_blue_orb_int"									"+$int"
+ 
+		"DOTA_Tooltip_modifier_flask_healing"										"Health Potion"
+		"DOTA_Tooltip_modifier_flask_healing_Description"							"Restoring health."
+
+		"DOTA_Tooltip_modifier_clarity_potion"										"Mana Potion"
+		"DOTA_Tooltip_modifier_clarity_potion_Description"							"Restoring mana."
+
+		"dota_tooltip_ability_item_treant_seed"										"Treant Seed"
+		"dota_tooltip_ability_item_golem_core"										"Golem Core"
+
+		"dota_tooltip_ability_return_lua"											"Return"
+
+		//cleric
+		//Mass Heal
+		"dota_tooltip_ability_cleric_mass_heal"										"Mass Heal"
+		"dota_tooltip_ability_cleric_mass_heal_description"							"Heals your allies nearby."
+		"dota_tooltip_ability_cleric_mass_heal_radius"								"RADIUS: "
+		"dota_tooltip_ability_cleric_mass_heal_heal"								"HEAL: "
+
+		"dota_tooltip_modifier_cleric_mass_heal"									"Mass Heal"
+		"dota_tooltip_modifier_cleric_mass_heal_description"						"Increase heal per stack. "
+		
+		//Divine Protection
+		"dota_tooltip_ability_cleric_divine_protection"								"Divine Protection"
+		"dota_tooltip_ability_cleric_divine_protection_description"					"Protects allies from death and amplifies health and mana regeneration. When health goes to %min_health%, the protection will be removed and allies will become immune to damage and regenerate all their health."
+		"dota_tooltip_ability_cleric_divine_protection_radius"						"RADIUS: "
+		"dota_tooltip_ability_cleric_divine_protection_health_regen_amp"			"%HEALTH REGEN AMPLIFICATION: "
+		"dota_tooltip_ability_cleric_divine_protection_mana_regen_amp"				"%MANA REGEN AMPLIFICATION: "
+		"dota_tooltip_ability_cleric_divine_protection_invulnerable_duration"		"IMMUNITY DURATION: "
+		"dota_tooltip_ability_cleric_divine_protection_duration"					"DURATION: "
+		
+		"dota_tooltip_modifier_cleric_divine_protection_min_health"					"Divine Protection"
+		"dota_tooltip_modifier_cleric_divine_protection_min_health_description"		"This unit cannot die as long as this protection is active. Amplifies health regeneration by %dMODIFIER_PROPERTY_HP_REGEN_AMPLIFY_PERCENTAGE%%% and mana regeneration by %dMODIFIER_PROPERTY_MP_REGEN_AMPLIFY_PERCENTAGE%%%"
+		
+		"dota_tooltip_modifier_cleric_divine_protection_invincible"					"Damage Immunity"
+		
+		"dota_tooltip_modifier_cleric_divine_protection_regen"						"Regeneration"
+		"dota_tooltip_modifier_cleric_divine_protection_regen_description"			"Health is being restored. "
+
+		"dota_tooltip_modifier_cleric_divine_protection_resist"						"Damage Resistance"
+		"dota_tooltip_modifier_cleric_divine_protection_resist_description"			"Damage taken is reduced by %dMODIFIER_PROPERTY_INCOMING_DAMAGE_PERCENTAGE%%%. "
+
+		//Blessing
+		"dota_tooltip_ability_cleric_blessing"										"Blessing"
+		"dota_tooltip_ability_cleric_blessing_description"							"Removes debuffs of allies and adds bonus damage to their attacks based on your max mana. Allied heroes are granted <font color=\"#FF0000\">Strength</font>, <font color=\"#0EFF00\">Agility</font>, or <font color=\"#0036FF\">Intelligence</font> based on their Primary Atribute. "
+		"dota_tooltip_ability_cleric_blessing_bonus_attribute"						"%PRIMARY ATTRIBUTE AS BONUS ATTRIBUTE: "
+		"dota_tooltip_ability_cleric_blessing_radius"								"RADIUS: "
+		"dota_tooltip_ability_cleric_blessing_damage_per_attack"					"%MAX MANA AS DAMAGE: "
+		"dota_tooltip_ability_cleric_blessing_duration"								"DURATION: "
+		
+		"dota_tooltip_modifier_cleric_blessing_damage"								"Damage Amplification"
+		"dota_tooltip_modifier_cleric_blessing_damage_description"					"Damage amplified by %dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%%."
+		
+		"dota_tooltip_modifier_cleric_blessing"										"Blessing"
+		"dota_tooltip_modifier_cleric_blessing_description"							"Provides additional %dMODIFIER_PROPERTY_TOOLTIP% <font color=\"#6a0dad\">Magical</font> Damage to your attacks."
+
+		"dota_tooltip_modifier_cleric_blessing_str"									"Blessing: Strength"
+		"dota_tooltip_modifier_cleric_blessing_str_description"						"Provides %dMODIFIER_PROPERTY_TOOLTIP%%% of your <font color=\"#FF0000\">Base Strength</font> as bonus <font color=\"#FF0000\">Strength</font>."
+		"dota_tooltip_modifier_cleric_blessing_agi"									"Blessing: Agility"
+		"dota_tooltip_modifier_cleric_blessing_agi_description"						"Provides %dMODIFIER_PROPERTY_TOOLTIP%%% of your <font color=\"#0EFF00\">Base Agility</font> as bonus <font color=\"#0EFF00\">Agility</font>."
+		"dota_tooltip_modifier_cleric_blessing_int"									"Blessing: Intelligence"
+		"dota_tooltip_modifier_cleric_blessing_int_description"						"Provides %dMODIFIER_PROPERTY_TOOLTIP%%% of your <font color=\"#0036FF\">Base Intelligence</font> as bonus <font color=\"#0036FF\">Intelligence</font>."
+
+		//Turn Undead
+		"dota_tooltip_ability_cleric_turn_undead"									"Turn Undead"
+		"dota_tooltip_ability_cleric_turn_undead_description"						"Releases 3 blasts that purges and damages enemies, dealing more damage to demons, ghosts, and undead."
+		"dota_tooltip_ability_cleric_turn_undead_skill_damage"						"%SKILL DAMAGE: "
+		"dota_tooltip_ability_cleric_turn_undead_damage_increase"					"%DAMAGE INCREASE: "
+
+		"dota_tooltip_ability_cleric_resurrection"									"Resurrection"
+		"dota_tooltip_ability_cleric_resurrection_description"						"After channeling, resurrects fallen allies around you. Resurrected allies become invulnerable for a few seconds. "
+		"dota_tooltip_ability_cleric_resurrection_channel_time"						"CHANNELNG TIME: "
+		"dota_tooltip_ability_cleric_resurrection_radius"							"RADIUS: "
+		"dota_tooltip_ability_cleric_resurrection_max_hero"							"MAX HERO: "
+		"dota_tooltip_ability_cleric_resurrection_duration"							"DURATION: "
+
+		"dota_tooltip_modifier_cleric_resurrection_invincible"						"Invincible"
+
+		//Channel Divinity
+		"dota_tooltip_ability_cleric_channel_divinity"								"Channel Divinity"
+		"dota_tooltip_ability_cleric_channel_divinity_description"					"Channels the powers of the the Divines. Consumes all your mana and provides status resistance and heal amplification to yourself. Adds effects to your spells and reduces its mana cost to %mana_cost% and cooldown to %spell_cooldown%. After the duration or when all stack has been consume, all spells will go on [ %cooldown_penalty% + %cooldown_per_cast% per spell casted ] second cooldown. 
+		<font color=\"#FFD700\">Mass Heal</font>: Increases heal by %heal_per_stack% per spell use. 
+		<font color=\"#FFD700\">Divine Protection</font>: The spell now increases damage resistance of allies by %damage_resist%% for %resist_duration% seconds. 
+		<font color=\"#FFD700\">Blessing</font>: The spell now provides you with all attribute bonuses and amplifies damage of allies by %damage_amp%% for %damage_duration% seconds. 
+		<font color=\"#FFD700\">Turn Undead</font>: Now concentrates all blasts into a single wave, increasing the damage instance by %damage_instance% . 
+		<font color=\"#FFD700\">Resurrection</font>: The spell also restores the health of living allies by %resurrect_heal_percent%% ."
+		"dota_tooltip_ability_cleric_channel_divinity_max_stack"					"MAX STACK: "
+		"dota_tooltip_ability_cleric_channel_divinity_status_resist"				"%STATUS RESISTANCE: "
+		"dota_tooltip_ability_cleric_channel_divinity_heal_amp"						"%HEAL AMPLIFICATION: "
+		"dota_tooltip_ability_cleric_channel_divinity_cooldown_penalty"				"COOLDOWN PENALTY: "
+		"dota_tooltip_ability_cleric_channel_divinity_cooldown_per_cast"			"COOLDOWN PER CAST: "
+		"dota_tooltip_ability_cleric_channel_divinity_duration"						"DURATION: "
+		"dota_tooltip_ability_cleric_channel_divinity_note0"						"Additional cooldown penalty of a spell will not affect other spell cooldown. The base cooldown penalty however, applies to all spells regardless if it was used or not. "
+
+		"dota_tooltip_modifier_cleric_channel_divinity"								"Channel Divinity"
+
+		"dota_tooltip_ability_cleric_divine_strength"								"Divine Strength"
+		"dota_tooltip_ability_cleric_divine_strength_description"					"Provides Intelligence based on your Strength"
+		"dota_tooltip_ability_cleric_divine_strength_str_as_int"					"%STRENGTH AS INTELLIGENCE: "
+		"dota_tooltip_ability_cleric_divine_strength_int_as_heal"					"%INTELLIGENCE AS HEAL AMPLIFICATION: "
+		
+		//Divine Strength
+		"dota_tooltip_modifier_cleric_divine_strength"								"Divine Strength"
+		"dota_tooltip_modifier_cleric_divine_strength_description"					"Provodes %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS% Intelligence and  %dMODIFIER_PROPERTY_TOOLTIP%%% Heal Amplification."
+
+		//Restoration
+		"dota_tooltip_ability_cleric_restoration"									"Restoration"
+		"dota_tooltip_ability_cleric_restoration_description"						"Increases your Healing. Casting spells heals allies in a %radius% radius around you."
+		"dota_tooltip_ability_cleric_restoration_mana_as_heal"						"%MANA AS HEAL:"
+		"dota_tooltip_ability_cleric_restoration_loss_health_as_heal"				"%MISSING HEALTH AS HEAL: "
+		"dota_tooltip_ability_cleric_restoration_heal_amp"							"%HEAL AMPLIFICATION: "
+
+		//Clairvoyance
+		"dota_tooltip_ability_cleric_clairvoyance"									"Clairvoyance"
+		"dota_tooltip_ability_cleric_clairvoyance_description"						"Sees the truth in everything, revealing hidden enemy units nearby and providing you evasion and accuracy. "
+		"dota_tooltip_ability_cleric_clairvoyance_evasion"							"%EVASION: "
+		"dota_tooltip_ability_cleric_clairvoyance_accuracy"							"%ACCURACY: "
+		"dota_tooltip_ability_cleric_clairvoyance_radius"							"RADIUS: "
+
+		"dota_tooltip_modifier_cleric_clairvoyance_aura"							"Clairvoyance"
+		"dota_tooltip_modifier_cleric_clairvoyance_aura_description" 				"Revealed by the Cleric."
+		
+		"dota_tooltip_modifier_cleric_clairvoyance_buff"							"Clairvoyance"
+		"dota_tooltip_modifier_cleric_clairvoyance_buff_description"				"%dMODIFIER_PROPERTY_EVASION_CONSTANT%%% Evasion."
+		
+		//bard
+		"dota_tooltip_ability_bard_empty"											"Empty Slot"
+		"dota_tooltip_ability_bard_empty_description"								"Adds skill depending on instrument equipped. "
+
+		//instrument
+		"dota_tooltip_modifier_bard_flute"											"Flute Equipped"
+		"dota_tooltip_modifier_bard_guitar"											"Guitar Equipped"
+		"dota_tooltip_modifier_bard_lyre"											"Lyre Equipped"
+
+		"dota_tooltip_ability_bard_flute"											"Flute"
+		"dota_tooltip_ability_bard_guitar"											"Guitar"
+		"dota_tooltip_ability_bard_lyre"											"Lyre"
+		
+		//Symphony
+		"dota_tooltip_ability_bard_symphony"										"Symphony"
+		"dota_tooltip_ability_bard_symphony_description"							"Insipres allies nearby providing bonuses depending on the instrument you equipped. The flute provides attack speed, the guitar provides evasion and the lyre provides critical rate. "
+		"dota_tooltip_ability_bard_symphony_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_symphony_attack_speed"							"ATTACK SPEED: "
+		"dota_tooltip_ability_bard_symphony_evasion"								"%EVASION: "
+		"dota_tooltip_ability_bard_symphony_crit_rate"								"%CRITICAL RATE: "
+		"dota_tooltip_ability_bard_symphony_active_movespeed"						"ACTIVE MOVEMENT SPEED: "
+
+		"dota_tooltip_ability_bard_symphony_cancel"									"Symphony: Cancel"
+		
+		"dota_tooltip_modifier_bard_symphony"										"Symphony Active"
+		"dota_tooltip_modifier_bard_symphony_description"							""
+		"dota_tooltip_modifier_bard_symphony_flute_aura"							"Symphony Active: Flute"
+		"dota_tooltip_modifier_bard_symphony_flute_aura_description"				"Provides %dMODIFIER_PROPERTY_TOOLTIP%% bonus attack speed to allies around you."
+		"dota_tooltip_modifier_bard_symphony_guitar_aura"							"Symphony Active: Guitar"
+		"dota_tooltip_modifier_bard_symphony_guitar_aura_description"				"Provides %dMODIFIER_PROPERTY_TOOLTIP%%% bonus evasion to allies around you."
+		"dota_tooltip_modifier_bard_symphony_lyre_aura"								"Symphony Active: Lyre"
+		"dota_tooltip_modifier_bard_symphony_lyre_aura_description"					"Provides %dMODIFIER_PROPERTY_TOOLTIP%%% bonus critical rate to allies around you."
+		"dota_tooltip_modifier_bard_symphony_flute"									"Symphony: Flute"
+		"dota_tooltip_modifier_bard_symphony_flute_description"						"%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%% bonus attack speed"
+		"dota_tooltip_modifier_bard_symphony_guitar"								"Symphony: Guitar"
+		"dota_tooltip_modifier_bard_symphony_guitar_description"					"%dMODIFIER_PROPERTY_EVASION_CONSTANT%%% bonus evasion"
+		"dota_tooltip_modifier_bard_symphony_lyre"									"Symphony: Lyre"
+		"dota_tooltip_modifier_bard_symphony_lyre_description"						"%dMODIFIER_PROPERTY_TOOLTIP%%% bonus critical rate"
+
+		//Discord
+		"dota_tooltip_ability_bard_discord"											"Discord"
+		"dota_tooltip_ability_bard_discord_description"								"Discourages enemies nearby reducing stats depending on the instrument you equipped. The flute reduces attack speed, the guitar reduces evasion and the lyre reduces critical rate. "
+		"dota_tooltip_ability_bard_discord_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_discord_attack_speed"							"ATTACK SPEED: "
+		"dota_tooltip_ability_bard_discord_evasion"									"%EVASION: "
+		"dota_tooltip_ability_bard_discord_crit_rate"								"%CRITICAL RATE: "
+		"dota_tooltip_ability_bard_discord_active_movespeed"						"ACTIVE MOVEMENT SPEED: "
+
+		"dota_tooltip_ability_bard_discord_cancel"									"Discord: Cancel"
+
+		"dota_tooltip_modifier_bard_discord"										"Discord Active"
+		"dota_tooltip_modifier_bard_discord_description"							""
+		"dota_tooltip_modifier_bard_discord_flute_aura"								"Discord Active: Flute"
+		"dota_tooltip_modifier_bard_discord_flute_aura_description"					"Reduces %dMODIFIER_PROPERTY_TOOLTIP%% attack speed to enemies around you. "
+		"dota_tooltip_modifier_bard_discord_guitar_aura"							"Discord Active: Guitar"
+		"dota_tooltip_modifier_bard_discord_guitar_aura_description"				"Reduces %dMODIFIER_PROPERTY_TOOLTIP%%% evasion to enemies around you. 
+		"dota_tooltip_modifier_bard_discord_lyre_aura"								"Discord Active: Lyre"
+		"dota_tooltip_modifier_bard_discord_lyre_aura_description"					"Reduces %dMODIFIER_PROPERTY_TOOLTIP%%% critical rate to enemies around you. "
+		"dota_tooltip_modifier_bard_discord_flute"									"Discord: Flute"
+		"dota_tooltip_modifier_bard_discord_flute_description"						"-%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%% attack speed reduction"
+		"dota_tooltip_modifier_bard_discord_guitar"									"Discord: Guitar"
+		"dota_tooltip_modifier_bard_discord_guitar_description"						"-%dMODIFIER_PROPERTY_EVASION_CONSTANT%%% evasion reduction"
+		"dota_tooltip_modifier_bard_discord_lyre"									"Discord: Lyre"
+		"dota_tooltip_modifier_bard_discord_lyre_description"						"-%dMODIFIER_PROPERTY_TOOLTIP%%% critical rate reduction"
+
+		//Hypnotize
+		"dota_tooltip_ability_bard_hypnotize"										"Hypnotize"
+		"dota_tooltip_ability_bard_hypnotize_description"							"Casts a hypnotic tune causing enemies to follow you in a line. "
+		"dota_tooltip_ability_bard_hypnotize_radius"								"RADIUS: "
+		"dota_tooltip_ability_bard_hypnotize_move_speed"							"%MOVEMENT SLOW: "
+		"dota_tooltip_ability_bard_hypnotize_slow_duration"							"SLOW DURATION: "
+		"dota_tooltip_ability_bard_hypnotize_max_targets"							"MAX TARGET: "
+		"dota_tooltip_ability_bard_hypnotize_duration"								"DURATION: "
+
+		"dota_tooltip_modifier_bard_hypnotize_debuff"								"Hypnotised"
+		"dota_tooltip_modifier_bard_hypnotize_debuff_description"					"Dance along with the Bard. "
+		
+		//Lullaby
+		"dota_tooltip_ability_bard_lullaby"											"Lullaby"
+		"dota_tooltip_ability_bard_lullaby_description"								"Plays a lullaby that put nearby enemies to sleep.
+		After several attacks, affected units wakes up and will feel drowzy"
+		"dota_tooltip_ability_bard_lullaby_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_lullaby_max_target"								"MAXT TARGETS: "
+		"dota_tooltip_ability_bard_lullaby_attacks"									"ATTACKS TO WAKE UP: "
+		"dota_tooltip_ability_bard_lullaby_duration"								"DURATION: "
+		"dota_tooltip_ability_bard_drowzy_miss_chance"								"%DROWZY MISS CHANCE: "
+		"dota_tooltip_ability_bard_drowzy_duration"									"DROWZY DURATION: "
+
+		"dota_tooltip_modifier_bard_lullaby_lua_debuff"								"Lullaby"
+		"dota_tooltip_modifier_bard_lullaby_lua_debuff_description"					"Asleep. Wakes up after %dMODIFIER_PROPERTY_TOOLTIP% attacks or %dMODIFIER_PROPERTY_TOOLTIP2% seconds"
+		"dota_tooltip_modifier_bard_drowzy_lua_debuff"								"Drowzy"
+		"dota_tooltip_modifier_bard_drowzy_lua_debuff_description"					"Feeling sleepy after waking up. Cannot block or evade attacks and your attacks can miss by %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%%. "
+
+		//Bewilder
+		"dota_tooltip_ability_bard_bewilder"										"Bewilder"
+		"dota_tooltip_ability_bard_bewilder_description"							"Confuses enemies around you, attacking the closest ally around them. When thier ally target dies, they look for another target.
+		Enemies become confused after <font color=\"#FFD700\">Bewilder</font> ends for %confused_duration% seconds and additional seconds per kill during <font color=\"#FFD700\">Bewilder</font>."
+		"dota_tooltip_ability_bard_bewilder_note0"									"Unaffected units can attack their allies affected with <font color=\"#FFD700\">Bewilder</font> and <font color=\"#FFD700\">Confused</font>. Affected units will only attack other affected units. "
+		"dota_tooltip_ability_bard_bewilder_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_bewilder_max_target"								"MAX TARGETS: "
+		"dota_tooltip_ability_bard_bewilder_duration"								"DURATION: "
+		"dota_tooltip_ability_bard_bewilder_duration_per_kill"						"ADDITIONAL DUARTION: "
+		
+		"dota_tooltip_modifier_bard_bewilder_lua_debuff"							"Bewilder"
+		"dota_tooltip_modifier_bard_bewilder_lua_debuff_description"				"Attacks ally units around you."
+		"dota_tooltip_modifier_bard_confuse_debuff"									"Confused"
+		"dota_tooltip_modifier_bard_confuse_debuff_description"						"Confused after what you have done. Movement speed is reduced to %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+
+		//Whispers
+		"dota_tooltip_ability_bard_whispers"										"Whispers"
+		"dota_tooltip_ability_bard_whispers_description"							""
+		"dota_tooltip_ability_bard_whispers_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_whispers_deley"									"%DELEY: "
+		"dota_tooltip_ability_bard_whispers_duration"								"DURATION: "
+
+		"dota_tooltip_modifier_bard_whispers"										"Invisible"
+		"dota_tooltip_modifier_bard_whispers_description"							"This unit can only be seen by True Sight. "
+		
+		//Song Of Restoration
+		"dota_tooltip_ability_bard_song_of_restoration"								"Song of Restoration"
+		"dota_tooltip_ability_bard_song_of_restoration_description"					""
+		"dota_tooltip_ability_bard_song_of_restoration_abilitychanneltime"			"CHANNEL TIME: "
+		"dota_tooltip_ability_bard_song_of_restoration_radius"						"RADIUS: "
+		"dota_tooltip_ability_bard_song_of_restoration_heal"						"HEAL PER SECOND: "
+		"dota_tooltip_ability_bard_song_of_restoration_mana"						"MANA PER SECOND: "
+
+		"dota_tooltip_modifier_bard_song_of_restoration"							"Song of Restoration"
+		"dota_tooltip_modifier_bard_song_of_restoration_description"				"Restoring health and mana per second to nearby allies. "
+		
+		//Haste
+		"dota_tooltip_ability_bard_haste"											"Haste"	
+		"dota_tooltip_ability_bard_haste_description"								"Increases movement speed of all allies nearby, providing immunity to slows. "
+		"dota_tooltip_ability_bard_haste_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_haste_move_speed"								"%BONUS MOVE SPEED: "
+		"dota_tooltip_ability_bard_haste_agi_as_move_speed"							"%AGILITY AS MOVE SPEED: "
+		"dota_tooltip_ability_bard_haste_duration"									"DURATION: "
+
+		"dota_tooltip_modifier_bard_haste"											"Haste"
+		"dota_tooltip_modifier_bard_haste_description"								"Increase movement speed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Also provides %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT% movement speed. This unit cannot be slowed "
+		
+		//Play Dead
+		"dota_tooltip_ability_bard_play_dead"										"Play Dead"
+		"dota_tooltip_ability_bard_play_dead_description"							"Dramatically plays dead to enemies. Finishing the channel replaces <font color=\"#FFD700\">Play Dead</font> with <font color=\"#FFD700\">Dash</font>. Canceling it, however, starts the cooldown. "
+		"dota_tooltip_ability_bard_play_dead_channel_time"							"CHANNELNG TIME: "
+		
+		//Dash
+		"dota_tooltip_ability_bard_dash"											"Dash"
+		"dota_tooltip_ability_bard_dash_description"								"Quickly dashes to the direction you are facing. Enemies you dashed through are damaged and slowed"
+		"dota_tooltip_ability_bard_dash_speed"										"DASH SPEED: "
+		"dota_tooltip_ability_bard_dash_distance"									"DASH DISTANCE: "
+		"dota_tooltip_ability_bard_dash_damage"										"DAMAGE: "
+		"dota_tooltip_ability_bard_dash_move_slow"									"%MOVE SLOW: "
+		"dota_tooltip_ability_bard_dash_slow_duration"								"SLOW DURATION: "
+
+		"dota_tooltip_modifier_bard_dash"											"Dash"
+
+		//Inspire
+		"dota_tooltip_ability_bard_inspire"											"Inspire"
+		"dota_tooltip_ability_bard_inspire_description"								"Plays a song that inspires your allies in battle. All bonuses from <font color=\"#FFD700\">Symphony</font> is applied to all allies around you and is increased to the targeted hero ally."
+		"dota_tooltip_ability_bard_inspire_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_inspire_multiplier"								"%SYMPHONY BONUS INCREASE: "
+		"dota_tooltip_ability_bard_inspire_duration"								"DURATION: "
+
+		"dota_tooltip_modifier_bard_inspire_target"									"Inspire"
+		"dota_tooltip_modifier_bard_inspire_target_description"						"Provides the bonuses of Symphony and increases it by %dMODIFIER_PROPERTY_TOOLTIP%%%"
+		
+		"dota_tooltip_modifier_bard_inspire"										"Inspire"
+		"dota_tooltip_modifier_bard_inspire_description"							"Provides the bonuses of Symphony"
+		
+		"dota_tooltip_modifier_bard_inspire_attack_speed"							"Inspire: Attack Speed"
+		"dota_tooltip_modifier_bard_inspire_attack_damage_percent"					"Inspire: Attack Damage"
+		"dota_tooltip_modifier_bard_inspire_move_speed"								"Inspire: Movement Speed"
+
+		//Charisma
+		"dota_tooltip_ability_bard_charisma"										"Charisma"
+		"dota_tooltip_ability_bard_charisma_description"							"Your Presence inpires allies to gain more experience. You gain %self_multiplier%x more by being confident in yourself. "
+		"dota_tooltip_ability_bard_charisma_radius"									"RADIUS: "
+		"dota_tooltip_ability_bard_charisma_exp_gain"								"%XP GAIN: "
+		
+		//Tuning
+		"dota_tooltip_ability_bard_tuning"											"Tuning"
+		"dota_tooltip_ability_bard_tuning_description"								"Reduce cooldown and manacost of your skills. Also increases movespeed during <font color=\"#FFD700\">Symphony</font> and <font color=\"#FFD700\">Discord</font> by %active_movespeed%. "
+		"dota_tooltip_ability_bard_tuning_cdr"										"%COOLDOWN REDUCTION: "
+		"dota_tooltip_ability_bard_tuning_mana_cost_reduction"						"%MANACOST REDUCTION: "
+		
+		//Finesse
+		"dota_tooltip_ability_bard_finesse"											"Finesse"
+		"dota_tooltip_ability_bard_finesse_description"								"RIncrease your critical chance and move speed. "
+		"dota_tooltip_ability_bard_finesse_crit_rate"								"%CRITICAL CHANCE: "
+		"dota_tooltip_ability_bard_finesse_move_speed"								"%MOVEMENT SPEED: "
+
+		//Druid
+		//Summon Treant
+		"dota_tooltip_ability_druid_summon_treant"									"Summon Treant"
+		"dota_tooltip_ability_druid_summon_treant_description"						"Summons a treant warrior to fight for you. The bonus health of the treant warrior is based on your mana and its attack damage is based on your <font color=\"#0036FF\">Intelligence</font>. "
+		"dota_tooltip_ability_druid_summon_treant_max_summons"						"MAX TREANTS: "
+		"dota_tooltip_ability_druid_summon_treant_mana_as_health"					"%MANA AS TREANT BONUS HEALTH"
+		"dota_tooltip_ability_druid_summon_treant_summon_damage"					"%TREANT DAMAGE"
+		"dota_tooltip_ability_druid_summon_treant_duration"							"DURATION: "
+
+		//Summon Golem
+		"dota_tooltip_ability_druid_summon_golem"									"Summon Golem"
+		"dota_tooltip_ability_druid_summon_golem_description"						"Summons a rock golem to fight for you. The bonus health of the rock golem is based on your mana and its attack damage is based on your <font color=\"#0036FF\">Intelligence</font>. "
+		"dota_tooltip_ability_druid_summon_golem_max_summons"						"MAX GOLEMS: "
+		"dota_tooltip_ability_druid_summon_golem_mana_as_health"					"%MANA AS GOLEM BONUS HEALTH"
+		"dota_tooltip_ability_druid_summon_golem_summon_damage"						"%GOLEM MAX DAMAGE"
+		"dota_tooltip_ability_druid_summon_golem_duration"							"DURATION: "
+
+		//Energy Bolt
+		"dota_tooltip_ability_druid_energy_bolt"									"Energy Bolt"
+		"dota_tooltip_ability_druid_energy_bolt_description"						"Creates a blast of energy that travels between allies, damaging nearby enemies and healing them. The heal increases per jump and damage dealt is based on healing. "
+		"dota_tooltip_ability_druid_energy_bolt_abilitycastrange"					"CAST RANGE: "
+		"dota_tooltip_ability_druid_energy_bolt_bounce_distance"					"BOUNCE DISTANCE: "
+		"dota_tooltip_ability_druid_energy_bolt_number_of_bounce"					"NUMBER OF BOUNCE: "
+		"dota_tooltip_ability_druid_energy_bolt_heal"								"HEAL: "
+		"dota_tooltip_ability_druid_energy_bolt_heal_increase"						"HEAL INCREASE: "
+		"dota_tooltip_ability_druid_energy_bolt_damage_radius"						"DAMAGE RADIUS: "
+
+		//Spirit Force
+		"dota_tooltip_ability_druid_spirit_force"									"Spirit Force"
+		"dota_tooltip_ability_druid_spirit_force_description"						"Calls upon the aid of the Forest Spirit, providing your nearby summons bunos attack damage, attack speed and movement speed. Druid also gets the bonus movement speed. "
+		"dota_tooltip_ability_druid_spirit_force_radius"							"RADIUS: "
+		"dota_tooltip_ability_druid_spirit_force_mana_as_attack_damage"				"%MAX MANA AS ATTACK DAMAGE: "
+		"dota_tooltip_ability_druid_spirit_force_attack_speed"						"ATTACK SPEED: "
+		"dota_tooltip_ability_druid_spirit_force_move_speed"						"%MOVEMENT SPEED: "
+
+		"dota_tooltip_modifier_modifier_druid_spirit_force_aura"					"Spirit Force"
+		"dota_tooltip_modifier_modifier_druid_spirit_force_aura_description"		"Provides attack damage, attack speed and movespeed to nearby summons. Bonus attack damage is based on your max mana. Also provides you with %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% movespeed. "
+	
+		"dota_tooltip_modifier_modifier_druid_spirit_force_bonus"					"Spirit Force"
+		"dota_tooltip_modifier_modifier_druid_spirit_force_bonus_description"		"Provides %dMODIFIER_PROPERTY_TOTALDAMAGEOUTGOING_PERCENTAGE%%% attack damage, %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% movespeed. "
+
+		//Nature's Call
+		"dota_tooltip_ability_druid_natures_call"									"Nature's Call"
+		"dota_tooltip_ability_druid_natures_call_description"						"Swaps places with any summon anywhere around the map. "
+		"dota_tooltip_ability_druid_natures_call_abilitycastpoint"					"CAST TIME: "
+		"dota_tooltip_ability_druid_natures_call_mana_as_attack_damage"				"%MAX MANA AS ATTACK DAMAGE: "
+		"dota_tooltip_ability_druid_natures_call_attack_speed"						"ATTACK SPEED: "
+		"dota_tooltip_ability_druid_natures_call_move_speed"						"%MOVEMENT SPEED: "
+
+		"dota_tooltip_modifier_modifier_druid_natures_call"							"Nature's Call"
+		"dota_tooltip_modifier_modifier_druid_natures_call_description"				"Teleporting. "
+	
+		"dota_tooltip_modifier_modifier_druid_natures_call_stop"					"Nature's Call"
+		"dota_tooltip_modifier_modifier_druid_natures_call_stop_description"		"Teleporting. "
+
+		//Shapeshift
+		"dota_tooltip_ability_druid_shapeshift"										"Shapeshift"
+		"dota_tooltip_ability_druid_shapeshift_description"							"Becomes a bear. "
+		"dota_tooltip_ability_druid_shapeshift_bonus_armor"							"BONUS ARMOR: "
+		"dota_tooltip_ability_druid_shapeshift_bonus_hp"							"BONUS HEALTH: "
+		"dota_tooltip_ability_druid_shapeshift_base_attack_time"					"BASE ATTACK TIME: "
+		"dota_tooltip_ability_druid_shapeshift_transformation_time"					"TRANSFROMATION TIME: "
+		"dota_tooltip_ability_druid_shapeshift_duration"							"DURATION: "
+		
+		//Protection of the Forest
+		"dota_tooltip_ability_druid_protection_of_the_forest"						"Protection of the Forest"
+		"dota_tooltip_ability_druid_protection_of_the_forest_description"			"Provides health and mana regeneration when your summons are nearby. The more summons, the more regeneration is provided."
+		"dota_tooltip_ability_druid_protection_of_the_forest_radius"				"RADIUS: "
+		"dota_tooltip_ability_druid_protection_of_the_forest_hp_regen_per_summon"	"REGEN PER SUMMONS NEARBY: "
+		"dota_tooltip_ability_druid_protection_of_the_forest_mana_regen_per_summon"	"REGEN PER SUMMONS NEARBY: "
+
+		"dota_tooltip_modifier_druid_protection_of_the_forest"						"Protection of the Forest"
+		"dota_tooltip_modifier_druid_protection_of_the_forest_description"			"Provides %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and %dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana per second. "
+		
+		//Harvest
+		"dota_tooltip_ability_druid_harvest"										"Harvest"
+		"dota_tooltip_ability_druid_harvest_description"							"Gains mana when summons are attacking. Provides Druid with mana steal (lifesteal during Shapeshift) that restores mana while attacking based on your attack damage. "
+		"dota_tooltip_ability_druid_harvest_self_mana_steel"						"%SELF MANA STEAL: "
+		"dota_tooltip_ability_druid_harvest_shapeshift_lifesteal"					"%SHAPESHIFT LIFESTEAL: "
+		"dota_tooltip_ability_druid_harvest_mana_per_hit"							"%SUMMON MANA STEAL: "
+
+		//Entangle
+		"dota_tooltip_ability_druid_entangle"										"Entangle"
+		"dota_tooltip_ability_druid_entangle_description"							"Attacks has a chance cause roots to burst from the ground, immobilizing the attacked enemy unit, providing vision and dealing damage per second. Affected enemies cannot block or evade attacks. Proc chance increases during <font color=\"#FFD700\">Shapeshift</font>."
+		"dota_tooltip_ability_druid_entangle_proc_chance"							"%PROC CHANCE: "
+		"dota_tooltip_ability_druid_entangle_shapeshift_proc"						"%SHAPESHIFT PROC CHANCE: "
+		"dota_tooltip_ability_druid_entangle_damage_per_second"						"DAMAGE PER SECOND: "
+		"dota_tooltip_ability_druid_entangle_duration"								"DUARTION: "
+
+		"dota_tooltip_modifier_druid_entangle_root"									"Entangled"
+		"dota_tooltip_modifier_druid_entangle_root_description"						"This unit is rooted."
+
+		//Paladin
+		//Iron Skin
+		"dota_tooltip_ability_paladin_iron_skin"									"Iron Skin"
+		"dota_tooltip_ability_paladin_iron_skin_description"						"Strengthens your skin to reduce incoming damage. Damage types other than <font color=\"#1c4587\">Magical</font> will be less resisted. Health will not go below 1 when inside the area of <font color=\"#000000\">Hollowed Ground</font>."
+		"dota_tooltip_ability_paladin_iron_skin_damage_resistance"					"%DAMAGE RESISTANCE: "
+		"dota_tooltip_ability_paladin_iron_skin_reduction"							"%PENALTY: "
+		"dota_tooltip_ability_paladin_iron_skin_abilityduration"					"DURATION: "
+
+		"dota_tooltip_modifier_paladin_iron_skin"									"Iron Skin"
+		"dota_tooltip_modifier_paladin_iron_skin_description"						"Reduce damage taken. "
+
+		//Hollowed Ground
+		"dota_tooltip_ability_paladin_hollowed_ground"								"Hollowed Ground"
+		"dota_tooltip_ability_paladin_hollowed_ground_description"					"Envelops the ground around you with divine protection. Enemies will be unable to enter or leave the area, while allies will have a portion of damaged dealt to them reduced and transferred to the Paladin. "
+		"dota_tooltip_ability_paladin_hollowed_ground_damage_reduction"				"%DAMAGE RESISTANCE: "
+		"dota_tooltip_ability_paladin_hollowed_ground_radius"						"RADIUS: "
+		"dota_tooltip_ability_paladin_hollowed_ground_abilityduration"				"DURATION: "
+		
+		"dota_tooltip_modifier_paladin_hollowed_ground"								"Hollowed Ground"
+		"dota_tooltip_modifier_paladin_hollowed_ground_description"					"Prevents enenies to enter and leave the area."
+
+		"dota_tooltip_modifier_paladin_hollowed_ground_protection"					"Hollowed Ground"
+		"dota_tooltip_modifier_paladin_hollowed_ground_protection_description"		""
+		
+		"dota_tooltip_modifier_paladin_hollowed_ground_reduction"					"Hollowed Ground"
+		"dota_tooltip_modifier_paladin_hollowed_ground_reduction_description"		"Paladin recieves damage taken by allies in the area. "
+		//Judgment
+		"dota_tooltip_ability_paladin_judgment"										"Judgment"
+		"dota_tooltip_ability_paladin_judgment_description"							"Calls lightning from heaven. Damages target and nearby enemies"
+		"dota_tooltip_ability_paladin_judgment_skill_factor"						"%SKILL DAMAGE: "
+		"dota_tooltip_ability_paladin_judgment_radius"								"RADIUS: "
+
+		//Warrior
+		//Provoke
+		"dota_tooltip_ability_warrior_provoke"										"Provoke"
+		"dota_tooltip_ability_warrior_provoke_description"							"Taunts nearby enemies around to attack you, also provides you with bonus armor. Attacking taunted enemies may refresh the taunt while being attacked by taunted enemies may refresh the bonus armor. "
+		"dota_tooltip_ability_warrior_provoke_radius"								"RADIUS: "
+		"dota_tooltip_ability_warrior_provoke_bonus_armor"							"BONUS ARMOR: "
+		"dota_tooltip_ability_warrior_provoke_proc_chance"							"%CHANCE TO REFRESH: "
+		"dota_tooltip_ability_warrior_provoke_duration"								"DURATION: "
+
+		"dota_tooltip_modifier_warrior_provoke"										"Provoke"
+		"dota_tooltip_modifier_warrior_provoke_description"							"Provides %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% bonus armor. "
+
+		"dota_tooltip_modifier_warrior_provoke_debuff"								"Taunted"
+
+		//Shield Strike
+		"dota_tooltip_ability_warrior_shield_strike"								"Shield Bash"
+		"dota_tooltip_ability_warrior_shield_strike_description"					"Strikes enemies in front of you with your shield. Enemies takes additional damage based on your armor. "
+		"dota_tooltip_ability_warrior_shield_strike_crit_mult"						"%SKILL DAMAGE: "
+		"dota_tooltip_ability_warrior_shield_strike_radius"							"RADIUS: "
+		"dota_tooltip_ability_warrior_shield_strike_knockback_duration"				"KNOCKBACK DURATION: "
+		"dota_tooltip_ability_warrior_shield_strike_knockback_distance"				"KNOCKBACK DISTANCE: "
+		"dota_tooltip_ability_warrior_shield_strike_bonus_damage_vs_heroes"			"HERO DAMAGE: "
+		
+		"dota_tooltip_modifier_warrior_shield_bash_block"							"Block"
+
+		//Shield Train
+		"dota_tooltip_ability_warrior_shield_train"									"Shield Strike"
+		"dota_tooltip_ability_warrior_shield_train_description"						"Dashes in front of you, striking anyone with your shield. "
+		"dota_tooltip_ability_warrior_shield_train_crit_mult"						"%SKILL DAMAGE: "
+		"dota_tooltip_ability_warrior_shield_train_radius"							"RADIUS: "
+		"dota_tooltip_ability_warrior_shield_train_knockback_duration"				"KNOCKBACK DURATION: "
+		"dota_tooltip_ability_warrior_shield_train_knockback_distance"				"KNOCKBACK DISTANCE: "
+		"dota_tooltip_ability_warrior_shield_train_bonus_damage_vs_heroes"			"HERO DAMAGE: "
+		
+		"dota_tooltip_modifier_warrior_shield_bash_block"							"Block"
+
+		//Sprint
+		"dota_tooltip_ability_warrior_sprint"										"Sprint"
+		"dota_tooltip_ability_warrior_sprint_description"							"Sprints with increased movement speed and canot be slowed. The duration is increased is based on the number of enemies nearby during casting. "
+		"dota_tooltip_ability_warrior_sprint_radius"								"RADIUS: "
+		"dota_tooltip_ability_warrior_sprint_move_speed"							"%BONUS MOVEMENT SPEED: "
+		"dota_tooltip_ability_warrior_sprint_max_target"							"MAX TARGETS: "
+		"dota_tooltip_ability_warrior_sprint_duration"								"DURATION: "
+
+		"dota_tooltip_modifier_warrior_sprint"										"Provoke"
+		"dota_tooltip_modifier_warrior_sprint_description"							"Provides %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% bonus move speed. "
+
+		//Guardian Stance
+		"dota_tooltip_ability_warrior_guardian_stance"								"Guardian Stance"
+		"dota_tooltip_ability_warrior_guardian_stance_description"					"Assumes a stance that reduces incoming attack damage based on your <font color=\"#FF0000\">Strength</font> and provides bonus armor and magic resistance. "
+		"dota_tooltip_ability_warrior_guardian_stance_str_as_damage_block"			"STRENGTH AS DAMAGE BLOCK: "
+		"dota_tooltip_ability_warrior_guardian_stance_bonus_armor"					BONUS ARMOR: "
+		"dota_tooltip_ability_warrior_guardian_stance_magic_resistance"				"%BONUS MAGIC RESISTANCE: "
+		"dota_tooltip_ability_warrior_guardian_stance_duration"						"DURATION: "
+
+		"dota_tooltip_modifier_warrior_guardian_stance"								"Guardian Stance"
+		"dota_tooltip_modifier_warrior_guardian_stance_description"					"Reduces incoming attack damage %dMODIFIER_PROPERTY_PHYSICAL_CONSTANT_BLOCK_SPECIAL%, and provides %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor and  %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%% magic resistance. "
+		
+		//Counter Stance
+		"dota_tooltip_ability_warrior_counter_stance"								"Counter Stance"
+		"dota_tooltip_ability_warrior_counter_stance_description"					"Has a chance to counter attacks. "
+		"dota_tooltip_ability_warrior_counter_stance_radius"						"RADIUS: "
+		"dota_tooltip_ability_warrior_counter_stance_proc_chance"					"%PROC CHANCE: "
+		"dota_tooltip_ability_warrior_counter_stance_damage_reduction"				"%DAMAGE RESISTANCE: "
+
+		//Counter Stance
+		"dota_tooltip_ability_warrior_perseverance"									"Perseverance"
+		"dota_tooltip_ability_warrior_perseverance_description"						"Decreases your Out of Combat timer and increases its health regen. Increases your health regen the lower your health is. Bonus health regen is based on the percentage of your <font color=\"#FF0000\">Strength</font>. "
+		"dota_tooltip_ability_warrior_perseverance_timer_reduction"					"TIMER REDUCTION: "
+		"dota_tooltip_ability_warrior_perseverance_health_regen"					"%OUT OF COMBAT HEALTH REGEN: "
+		"dota_tooltip_ability_warrior_perseverance_max_health"						"%MAX HEALTH: "
+		"dota_tooltip_ability_warrior_perseverance_hp_threshold_max"				"%HEALTH THRESHOLD: "
+		"dota_tooltip_ability_warrior_perseverance_str_as_health_regen"				"%STRENTH AS HEALTH REGEN: "
+
+		//Iron Will
+		"dota_tooltip_ability_warrior_iron_will"									"Iron Will"
+		"dota_tooltip_ability_warrior_iron_will_description"						"Prevents dying. At %hp_threshold% health, you cannot die. When the buff expires and your health is not at %max_health%%, you will die. "
+		"dota_tooltip_ability_warrior_iron_will_hp_threshold"						"HP THRESHOLD: "
+		"dota_tooltip_ability_warrior_iron_will_max_health"							"%MAX HEALTH: "
+		"dota_tooltip_ability_warrior_iron_will_duration"							"DURATION: "
+		
+		"dota_tooltip_modifier_warrior_iron_will"									"Iron Will"
+		"dota_tooltip_modifier_warrior_iron_will_description"						"Manager. "
+		
+		"dota_tooltip_modifier_warrior_iron_will_min"								"Iron Will"
+		"dota_tooltip_modifier_warrior_iron_will_min_description"					"Prevents dying. "
+		
+		"dota_tooltip_modifier_warrior_iron_will_buff"								"Undying"
+		"dota_tooltip_modifier_warrior_iron_will_buff_description"					"Cannot die. Executes this unit if health is below 100% after the duration. "
+		
+		//Marksman
+		//Ankle Shot
+		"dota_tooltip_ability_marksman_ankle_shot"									"Ankle Shot"
+		"dota_tooltip_ability_marksman_ankle_shot_description"						"Shoot s an arrow that foots the first target it hits. "
+		"dota_tooltip_ability_marksman_ankle_shot_AbilityCharges"					"CHARGES: "
+		"dota_tooltip_ability_marksman_ankle_shot_AbilityChargeRestoreTime"			"CHARGE RESTORE: "
+
+		//Scatter Arrows
+		"dota_tooltip_ability_marksman_scatter_arrows"								"Scatter Arrows"
+		"dota_tooltip_ability_marksman_scatter_arrows_description"					"Shoots an arrow that scatters to an area, damaging enemies hit. "
+		
+		//Barrage
+		"dota_tooltip_ability_marksman_barrage"										"Barrage"
+		"dota_tooltip_ability_marksman_barrage_description"							"Continuously launches a barrage of arrow in front of you, while locking the direction you are facing. "
+		
+		//Multishot
+		"dota_tooltip_ability_marksman_multishot"									"Multishot"
+		"dota_tooltip_ability_marksman_multishot_description"						"Shoots 5 arrows in front of the Marksman, damaging enemies hit. "
+		
+		//Triple Shot
+		"dota_tooltip_ability_marksman_triple_shot"									"Triple Shot"
+		"dota_tooltip_ability_marksman_triple_shot_description"						"Shoots three arrows in front of you, while dashing backwards. the next ability cast wil have no cast point. "
+		
+		//Powershot
+		"dota_tooltip_ability_marksman_powershot"									"Powershot"
+		"dota_tooltip_ability_marksman_powershot_description"						"After channeling, shoots an arrow that always deal critical strike, while destroying trees nearby. "
+		
+		//Sniper
+		"dota_tooltip_ability_marksman_sniper"										"Sniper"
+		"dota_tooltip_ability_marksman_sniper_description"							"Increases damage done to enemies the farther the Marksman is from them. "
+
+		//Piercing
+		"dota_tooltip_ability_marksman_piercing"									"Piercing"
+		"dota_tooltip_ability_marksman_piercing_description"						"Increases the speed of your arrows. "
+		"dota_tooltip_ability_marksman_piercing_projectile_speed"					"PROJECTILE SPEED: "
+
+		//Precision
+		"dota_tooltip_ability_marksman_precision"									"Precision"
+		"dota_tooltip_ability_marksman_precision_description"						"Increases the attack range provoded by equipped bow. "
+		"dota_tooltip_ability_marksman_precision_attack_range"						"ATTACK RANGE: "
+		"dota_tooltip_ability_marksman_precision_cast_range"						"CAST RANGE: "
+		
+		//Ranger
+		//Tame Beast
+		"dota_tooltip_ability_ranger_tame_beast"									"Tame Beast"
+		"dota_tooltip_ability_ranger_tame_beast_description"						"Domintaes a Beast-type creep. Training another beast renders the previous beast hostile to you. "
+		"dota_tooltip_ability_ranger_tame_beast_dominate_duration"					"DURATION: "
+		
+		//Latent Venom
+		"dota_tooltip_ability_ranger_latent_venom"									"Latent Venom"
+		"dota_tooltip_ability_ranger_latent_venom_description"						"Shoots an arrow that inflicts heavy poison to the target. The poison increases in damage over time and attacking affected unit has a chance of spreading the poison, with reduced duration, to nearby enemies. The chance to spread the poison increases when the affected unit dies. "
+		"dota_tooltip_ability_ranger_latent_venom_abilitycastrange"					"CAST RANGE: "
+		"dota_tooltip_ability_ranger_latent_venom_base_damage"						"BASE DAMAGE: "
+		"dota_tooltip_ability_ranger_latent_venom_increase_per_sec"					"%DAMAGE INCREASE PER TICK: "
+		"dota_tooltip_ability_ranger_latent_venom_projectile_speed"					"PROJECTILE SPEED: "
+		"dota_tooltip_ability_ranger_latent_venom_interval"							"DAMAGE INTERVAL: "
+		"dota_tooltip_ability_ranger_latent_venom_abilityduration"					"DURATION: "
+		"dota_tooltip_ability_ranger_latent_venom_proc_chance"						"%INFECT CHANCE: "
+		"dota_tooltip_ability_ranger_latent_venom_infect_radius"					"INFECT RADIUS: "
+		"dota_tooltip_ability_ranger_latent_venom_duration_reduction"				"%INFECT DURATION REDUCTION: "
+		
+		//Smokescreen
+		"dota_tooltip_ability_ranger_smokescreen"									"Smokescreen"
+		"dota_tooltip_ability_ranger_smokescreen_description"						"Throws a smokescreen on an area. Enemies in the area are slowed, blinded, and takes damage over time. The Ranger and its companions gains <font color=\"#ffffff\">Invisibility</font> and <font color=\"#ffffff\">True Sight</font> immunity. "
+		"dota_tooltip_ability_ranger_smokescreen_abilitycastrange"					"CAST RANGE: "
+		"dota_tooltip_ability_ranger_smokescreen_area_of_effect"					"AREA OF EFFECT: "
+		"dota_tooltip_ability_ranger_smokescreen_miss_chance"						"%MISS CHANCE: "
+		"dota_tooltip_ability_ranger_smokescreen_slow"								"%MOVEMENT SLOW: "
+		"dota_tooltip_ability_ranger_smokescreen_suffocate_damage"					"SUFFOCATE DAMAGE: "
+		"dota_tooltip_ability_ranger_smokescreen_duration"							"DURATION: "
+		
+		//Camouflage
+		"dota_tooltip_ability_ranger_camouflage"									"Camouflage"
+		"dota_tooltip_ability_ranger_camouflage_description"						"The Ranger hides within the trees, turning invisible and gaining Tree Walking and bonus movement speed when near a tree. Leaving the proximity of trees, attacking and being attacked removes the buff. "
+		"dota_tooltip_ability_ranger_camouflage_radius"								"RADIUS: "
+		"dota_tooltip_ability_ranger_camouflage_movespeed"							"%BONUS MOVE SPEED: "
+
+		//Barbarian
+		//Barbaric Rage
+		"dota_tooltip_ability_barbarian_barbaric_rage"								"Barbaric Rage"
+		"dota_tooltip_ability_barbarian_barbaric_rage_description"					"The Barbarian builds up its anger when attacked by enemies. Missing an attack increases charge by %miss_stack%, killing enemies increases charge by %kill_stack% and damaging units has a %proc_chance%%  chance of adding a charge. Being healed decreases charge by 1.
+		Each charge provides bonus damage, attack speed and movement speed."
+		"dota_tooltip_ability_barbarian_barbaric_rage_attack_damage"				"%DAMAGE PER STACK: "
+		"dota_tooltip_ability_barbarian_barbaric_rage_move_speed"					"%MOVE SPEED PER STACK: "
+		"dota_tooltip_ability_barbarian_barbaric_rage_attack_speed"					"ATTACK SPEED PER STACK: "
+		"dota_tooltip_ability_barbarian_barbaric_rage_proc_chance"					"%PROC CHANCE: "
+		"dota_tooltip_ability_barbarian_barbaric_rage_max_stack"					"MAX STACK: "
+		"dota_tooltip_ability_barbarian_barbaric_rage_duration"						"STACK DURATION: "
+		
+		"dota_tooltip_modifier_barbarian_barbaric_rage"								"Barbaric Rage"
+		"dota_tooltip_modifier_barbarian_barbaric_rage_description"					"This unit has %dMODIFIER_PROPERTY_DAMAGEOUTGOING_PERCENTAGE%%% attack damage increase, %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% movement speed."
+		
+		//Engineer
+		//Station Bot
+		"dota_tooltip_ability_engineer_station_bot"									"Station Bot"
+		"dota_tooltip_ability_engineer_station_bot_description"						"Builds a stationary robot."
+		
+		//Shaman
+		//Mystic Snake
+		"dota_tooltip_ability_shaman_mystic_snake"									"Mystic Snake"
+		"dota_tooltip_ability_shaman_mystic_snake_description"						"Protects an ally from dying, giving it a shield that prevents health from going below 1. When the shield's duration ends or when the shield is destroyed, damages enemies nearby based on the number of hits taken."
+		"dota_tooltip_ability_shaman_mystic_snake_type"								"TYPE: "
+		"dota_tooltip_ability_shaman_mystic_snake_radius"							"RADIUS: "
+		"dota_tooltip_ability_shaman_mystic_snake_max_hit"							"SHIELD HEALTH: "
+		"dota_tooltip_ability_shaman_mystic_snake_damage_per_stack"					"DAMAGE PER STACK MISSING: "
+		"dota_tooltip_ability_shaman_mystic_snake_damage_radius"					"DAMAGE RADIUS: "
+		"dota_tooltip_ability_shaman_mystic_snake_duration"							"SHIELD DURATION: "
+
+		//Resurrecting Light
+		"dota_tooltip_ability_shaman_resurrecting_light"							"Resurrecting Light"
+		"dota_tooltip_ability_shaman_resurrecting_light_description"				"Upon dying, has a chance to be resurrected. Increases your chance of resurrecting the more allies nearby.
+		Upon resurrecting, has a chance to bring other dead allies back from the dead."
+		"dota_tooltip_ability_shaman_resurrecting_light_reincarnate_time"				"RESURRECT TIME: "
+		"dota_tooltip_ability_shaman_resurrecting_light_resurrect_chance"				"%RESURRECT CHANCE: "
+		"dota_tooltip_ability_shaman_resurrecting_light_ally_chance"					"%ALLY RESURRECT CHANCE: "
+		"dota_tooltip_ability_shaman_resurrecting_light_resurrect_radius"				"RADIUS: "
+		"dota_tooltip_ability_shaman_resurrecting_light_bonus_chance"					"%BONUS CHANCE PER ALLY: "
+		
+		//Protection From Death
+		"dota_tooltip_ability_shaman_protection_from_death"								"Protection From Death"
+		"dota_tooltip_ability_shaman_protection_from_death_description"					"Protects an ally from dying, giving it a shield that prevents health from going below 1. When the shield's duration ends or when the shield is destroyed, damages enemies nearby based on the number of hits taken."
+		//"dota_tooltip_ability_shaman_protection_from_death_type"						"TYPE: "
+		"dota_tooltip_ability_shaman_protection_from_death_radius"						"RADIUS: "
+		"dota_tooltip_ability_shaman_protection_from_death_max_hit"						"SHIELD HEALTH: "
+		"dota_tooltip_ability_shaman_protection_from_death_damage_per_stack"			"DAMAGE PER STACK MISSING: "
+		"dota_tooltip_ability_shaman_protection_from_death_damage_radius"				"DAMAGE RADIUS: "
+		"dota_tooltip_ability_shaman_protection_from_death_duration"					"SHIELD DURATION: "
+
+		//Warlock
+		//Shadowraze
+		"dota_tooltip_ability_warlock_shadowraze"										"Shadowraze"
+
+		//Shadowraze
+		"dota_tooltip_ability_warlock_soulbind"											"Soulbind"
+
+		//Shadowraze
+		"dota_tooltip_ability_warlock_eldritch_blast"									"Eldritch Blast"
+
+		//Nyctophobia
+		"dota_tooltip_ability_warlock_nyctophobia"										"Nyctophobia"
+
+		//Wizard
+		//Meteor
+		"dota_tooltip_ability_wizard_meteor"											"Meteor"
+		"dota_tooltip_ability_wizard_meteor_description"								"After channeling, drops a meteor from the sky. The maximum radius increases the longer it is channeled. "
+		"dota_tooltip_ability_wizard_meteor_abilitychanneltime"							"CHANNEL TIME: "
+		"dota_tooltip_ability_wizard_meteor_inner_radius"								"MIN RADIUS: "
+		"dota_tooltip_ability_wizard_meteor_area_of_effect"								"MAX RADIUS: "
+		"dota_tooltip_ability_wizard_meteor_abilitydamage"								"DAMAGE: "
+		"dota_tooltip_ability_wizard_meteor_burn_damage"								"BURN DAMAGE: "
+		"dota_tooltip_ability_wizard_meteor_burn_duration"								"BURN DURATION: "
+		
+		//Blizzard
+		"dota_tooltip_ability_wizard_blizzard"											"Blizzard"
+		"dota_tooltip_ability_wizard_blizzard_description"								"Channels a blizzard in an area. Enemies in the blizzard are [Chilled] and has a chance to be [Frozen] when damaged. "
+		"dota_tooltip_ability_wizard_blizzard_abilitychanneltime"						"CHANNEL TIME: "
+		"dota_tooltip_ability_wizard_blizzard_area_of_effect"							"RADIUS: "
+		"dota_tooltip_ability_wizard_blizzard_explosion_radius"							"EXPLOSION RADIUS: "
+		"dota_tooltip_ability_wizard_blizzard_explosion_interval"						"EXPLOSION INTERVAL: "
+		"dota_tooltip_ability_wizard_blizzard_abilitydamage"							"DAMAGE: "
+		"dota_tooltip_ability_wizard_blizzard_slow_duration"							"[CHILLED] DURATION: "
+		
+		//Ice Blast
+		"dota_tooltip_ability_wizard_ice_blast"											"Ice Blast"
+		"dota_tooltip_ability_wizard_ice_blast_description"								"Blasts an energy of ice in an aera after a short channel. While the blast is travelling, enemies on its path are [Chilled]. Enemies hit with the blast are [Frozen]. Deals masive damage to enemies that are already [Frozen].
+		The blast has no effect on [Burned] enemies. "
+		"dota_tooltip_ability_wizard_ice_blast_abilitychanneltime"						"CHANNEL TIME: "
+		"dota_tooltip_ability_wizard_ice_blast_area_of_effect"							"RADIUS: "
+		"dota_tooltip_ability_wizard_ice_blast_radius"									"[CHILLED] RADIUS: "
+		"dota_tooltip_ability_wizard_ice_blast_chilled_duration"						"[CHILLED] DURATION: "
+		"dota_tooltip_ability_wizard_ice_blast_frozen_duration"							"[FROZEN] DURATION: "
+		"dota_tooltip_ability_wizard_ice_blast_frozen_damage"							"FROZEN DAMAGE: "
+
+		//Arcane Channeling
+		"dota_tooltip_ability_wizard_arcane_channeling"									"Arcane Channeling"
+		"dota_tooltip_ability_wizard_arcane_channeling_description"						"Provides Spell Amplification on channeling spells."
+		"dota_tooltip_ability_wizard_arcane_channeling_damage_amp"						"%SPELL AMPLIFY: "
+
+		"DOTA_Tooltip_ability_special_bonus_channel_time"								"+{s:value}s Channel Time"
+
+		//Summons
+		//Chlorophyll
+		"dota_tooltip_ability_summon_treant_chlorophyll"								"Chlorophyll"
+		"dota_tooltip_ability_summon_treant_chlorophyll_description"					"Treants gain passive health regen, attack speed and move speed during the day. "
+		"dota_tooltip_ability_summon_treant_chlorophyll_health_regen"					"DAY HEALTH REGEN: "
+		"dota_tooltip_ability_summon_treant_chlorophyll_attack_speed"					"DAY ATTACK SPEED: "
+		"dota_tooltip_ability_summon_treant_chlorophyll_move_speed"						"DAY MOVEMENT SPEED: "
+
+		"dota_tooltip_modifier_summon_treant_chlorophyll_buff"							"Chlorophyll"
+		"dota_tooltip_modifier_summon_treant_chlorophyll_buff_description"				"This unit has %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health regen, %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT% movement speed during the day."
+		
+		//Fury Swipes
+		"dota_tooltip_ability_summon_treant_fury_swipes"								"Fury Swipes"
+		"dota_tooltip_ability_summon_treant_fury_swipes_description"					"Attacking increases damage dealt to target enemy. "
+		"dota_tooltip_ability_summon_treant_fury_swipes_damage_per_stack"				"DAMAGE PER STACK: "
+		"dota_tooltip_ability_summon_treant_fury_swipes_bonus_reset_time"				"RESET TIME: "
+
+		"dota_tooltip_modifier_summon_treant_fury_swipes_debuff"						"Fury Swipes"
+		"dota_tooltip_modifier_summon_treant_fury_swipes_debuff_description"			"Receives additional damage when attacked."
+		
+		//Craggy Exterior
+		"dota_tooltip_ability_summon_golem_craggy_exterior"								"Craggy Exterior"
+		"dota_tooltip_ability_summon_golem_craggy_exterior_description"					"Enemies nearby that attacks the golem will be damaged based on the damage of the attack. Has a chance to stun enemy per attack. "
+		"dota_tooltip_ability_summon_golem_craggy_exterior_bonus_armor"					"BONUS ARMOR: "
+		"dota_tooltip_ability_summon_golem_craggy_exterior_radius"						"RADIUS: "
+		"dota_tooltip_ability_summon_golem_craggy_exterior_proc_chance"					"%PROC CHANCE: "
+		"dota_tooltip_ability_summon_golem_craggy_exterior_damage_reflected"			"%DAMAGE REFLECTED: "
+		"dota_tooltip_ability_summon_golem_craggy_exterior_duration"					"DURATION: "
+
+		//Rock Splash
+		"dota_tooltip_ability_summon_golem_rock_splash"									"Rock Splash"
+		"dota_tooltip_ability_summon_golem_rock_splash_description"						"Attacks from the Rock Golem spreads to enemies near the target and has a chance to bash the target. The splash damage is spread to enenies near the target and is based on this unit's attack"
+		"dota_tooltip_ability_summon_golem_rock_splash_attack_range"					"BONUS ATTACK RANGE: "
+		"dota_tooltip_ability_summon_golem_rock_splash_splash_radius"					"RADIUS: "
+		"dota_tooltip_ability_summon_golem_rock_splash_splash_damage"					"%SPLASH DAMAGE: "
+		"dota_tooltip_ability_summon_golem_rock_splash_proc_chance"						"%BASH CHANCE: "
+		"dota_tooltip_ability_summon_golem_rock_splash_damage"							"%BASH DAMAGE: "
+		"dota_tooltip_ability_summon_golem_rock_splash_duration"						"BASH DURATION: "
+
+		//misc
+		"dota_tooltip_modifier_player_healing"											"Healing"
+		"dota_tooltip_modifier_player_healing_description"								"%dMODIFIER_PROPERTY_TOOLTIP%%% Heal Amplification"
+		
+		//"dota_hud_error_cant_cast_on_self"										"Cannot cast on Self"
+		"dota_hud_error_cant_cast_on_non_summon"									"Cannot cast on this Unit"
+		"dota_hud_error_cant_cast_on_maximized"										"Cannot cast on Maximized Units"
+		"dota_hud_error_cant_cast_on_minimized"										"Cannot cast on Minimized Units"
+
+		//Generic
+		"dota_tooltip_modifier_generic_stunned"											"Stunned"
+		"dota_tooltip_modifier_generic_stunned_description"								"This unit cannot move. "
+
+		"dota_tooltip_modifier_generic_bleeding"										"Bleeding"
+		"dota_tooltip_modifier_generic_bleeding_description"							"Receives Pure damage every second based on Max Health. Bleed damage increases per missing health"
+
+		"dota_tooltip_modifier_generic_burned"											"Burned"
+		"dota_tooltip_modifier_generic_burned_description"								"Receives Fire damage every second."
+
+		"dota_tooltip_modifier_generic_blinded"											"Blinded"
+		"dota_tooltip_modifier_generic_blinded_description"								"Removes vision. Attacks have a %dMODIFIER_PROPERTY_MISS_PERCENTAGE%%% chance to miss. "
+		
+		"dota_tooltip_modifier_generic_chilled"											"Chilled"
+		"dota_tooltip_modifier_generic_chilled_description"								"Slows attack speed by %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% and movement speed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. Has a chance to Freeze when taking damage. "
+		
+		"dota_tooltip_modifier_generic_frozen"											"Frozen"
+		"dota_tooltip_modifier_generic_frozen_description"								""
+		
+		"dota_tooltip_modifier_generic_shocked"											"Shocked"
+		"dota_tooltip_modifier_generic_shocked_description"								""
+	}
+}

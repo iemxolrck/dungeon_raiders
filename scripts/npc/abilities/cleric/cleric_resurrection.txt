@@ -1,0 +1,89 @@
+"DOTAAbilities"
+{
+	"cleric_resurrection"
+	{
+		// General
+		// ---------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"ScriptFile"					"lua_abilities/cleric_resurrection/cleric_resurrection"
+		"AbilityTextureName"			"cleric/cleric_resurrection"
+		
+		"MaxLevel"						"5"
+		"LevelsBetweenUpgrades"			"5"
+		"RequiredLevel"					"10"
+
+		"AbilityType"					"DOTA_ABILITY_TYPE_BASIC"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_DEAD"
+
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+
+		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+
+		// Precache
+		// ---------------------------------------------------------------
+		"precache"
+		{
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_chen.vsndevts"
+			"soundfile"	"soundevents/game_sounds_heroes/game_sounds_wisp.vsndevts"
+			"particle"	"particles/econ/items/dazzle/dazzle_ti6_gold/dazzle_ti6_shallow_grave_gold.vpcf"
+			"particle"  "particles/units/heroes/hero_omniknight/omniknight_purification_cast.vpcf"
+			"particle"  "particles/units/heroes/hero_omniknight/omniknight_purification.vpcf"
+		}
+
+		// Ability Casting
+		// ---------------------------------------------------------------
+		"AbilityCastRange"				"1000"
+		"AbilityCastPoint"				"0.25"
+
+		// Ability Resource
+		// ---------------------------------------------------------------
+		"AbilityCooldown"				"200 250 100 150 50"
+		"AbilityChannelTime"			"5 4 3 2 1"
+		"AbilityManaCost"				"300"
+
+		// Special
+		// ---------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"type"					"7"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"1000"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"channel_time"			"5 4 3 2 1"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_hero"				"1 2 3 4 5"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"1 2 3 4 5"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cooldown"				"2.5"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"abilitychanneltime"	"2"
+			}
+		}
+	}
+}
